@@ -1,0 +1,35 @@
+
+.question__list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.question__item {
+  background-color: #fff;
+  color: #1C1A1A;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 30px 70px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 46px;
+}
+
+.question__item:nth-child(even) {
+  background-color:#440F51;
+  color: white;
+}
+
+.question__item:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+.question__item:last-child {
+  margin-bottom: 0;
+}
+
+.question__button{
+  float: right;
+}
+

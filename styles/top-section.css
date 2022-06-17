@@ -1,0 +1,64 @@
+
+.top-section {
+  width: 1180px;
+  height: 1019px;
+  background-image: url("../image/main.png");
+  background-repeat: no-repeat;
+  background-position: bottom 50px right;
+}
+
+.top-section__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.top-section__subtitle {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+  color: #FFFFFF;
+  margin-top: 0;
+  padding-top: 240px;
+  padding-left: 100px;
+  position: absolute;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  list-style-type: none;
+  line-height: 300%;
+}
+
+.menu__item {
+  width: 119px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+/*сбросить стили списка*/
+ul {
+  padding-left: 0;
+}
+.menu__item:last-child {
+  border: solid 3px;
+  border-color: #FFFFFF;
+}
+
