@@ -1,0 +1,48 @@
+.entertainment__list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.enter_item {
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 228px;
+
+}
+.vr {
+  background-image: url(../image/active/vr.jpg);
+}
+
+.audio {
+  background-image: url(../image/active/audio.jpg);
+
+}
+.karaoke {
+  background-image: url(../image/active/micro.jpg);
+}
+.tablegames {
+  background-image: url(../image/active/game.jpg);
+}
+
+.netflix {
+  background-image: url(../image/active/netflix.jpg);
+}
+
+.sony {
+  background-image: url(../image/active/sony.jpg);
+}
+
+.enter_item__title {
+position: relative;
+  top: 166px;
+  left: 40px;
+  white-space: pre-line;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
