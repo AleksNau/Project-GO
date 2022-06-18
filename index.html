@@ -67,7 +67,7 @@
 
                     <input type="button" name="room" value="Neon style" class="formbutton">
                 </fieldset>
-                <fieldset>
+                <fieldset  class="category">
                   <legend>Собери набор развлечений</legend>
                   <fieldset class="activity">
                     <legend>Приставка</legend>
@@ -85,7 +85,7 @@
                     </label>
 
                   </fieldset>
-                  <fieldset>
+                  <fieldset  class="activity">
                     <legend>Настольные игры</legend>
                     <label>
                       <input type="checkbox" name="tablegames" value="Jenga"> Jenga
@@ -101,7 +101,7 @@
                     </label>
 
                   </fieldset>
-                  <fieldset>
+                  <fieldset class="activity">
                     <legend>Дополнительно</legend>
                     <label>
                       <input type="checkbox" name="additional" value="karaoke"> Караоке
@@ -112,17 +112,26 @@
 
                   </fieldset>
                 </fieldset>
-                <fieldset>
+                <fieldset class="category">
                   <legend>Выбери дату и время</legend>
-                  <label>Дата*<input type="date" name="data" required></label>
-                  <label>Время*<input type="time" name="time" required></label><br>
-                  <label>Сколько человек*<input name="amount" type="number" required></label><br>
-                  <label>Имя*<input type="text" name="firstName" required></label><br>
-                  <label>Фамилия*<input type="text" name="secondName" required></label><br>
-                  <label>Телефон*<input type="tel" name="tel" required></label><br>
-                  <label>E-mail<input type="email" name="email"></label>
+                  <div class="activity">
+                    <label>Дата*<input type="date" name="data" required></label>
+                    <label>Время*<input type="time" name="time" required></label>
+                  </div>
+                  <div class="activity">
+                    <label>Дата*<input type="date" name="data" required></label>
+                    <label>Время*<input type="time" name="time" required></label>
+                    <label>Сколько человек*<input name="amount" type="number" required></label>
+                  </div>
+                  <div class="activity">
+                    <label>Имя*<input type="text" name="firstName" required></label><br>
+                    <label>Фамилия*<input type="text" name="secondName" required></label><br>
+                  </div>
+                  <div  class="activity">
+                    <label>Телефон*<input type="tel" name="tel" required></label><br>
+                    <label>E-mail<input type="email" name="email"></label>
+                  </div>
                 </fieldset>
-                <br>
                 <button type="submit">Забронировать</button>
               </fieldset>
             </form>
