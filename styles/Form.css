@@ -20,9 +20,48 @@
 .activity {
   display: flex;
   flex-direction: column;
+  gap: 40px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+  color: #FFFFFF;
 }
 
 .category {
   display: flex;
   justify-content: space-around;
 }
+
+.field {
+  width: 280px;
+  height: 52px;
+  background: #FFFFFF;
+}
+
+/* Rectangle 42 */
+.littlefield {
+  width: 134px;
+  height: 52px;
+  background: #FFFFFF;
+}
+.form {
+  background-color: #440F51;
+}
+
+.form__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.submitbut {
+  height: 60px;
+  width: 300px;
+}
+
+

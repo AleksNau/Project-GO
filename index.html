@@ -53,12 +53,13 @@
             style</p></li>
         </ul>
       </section>
-          <section>
-            <h2 id="three">Забронировать зал просто</h2>
+          <section class="form">
+            <h2 id="three" class="section-title">Забронировать зал просто</h2>
             <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
-              <fieldset>
-                <fieldset class="choseRoom">
-                  <legend>Выберите зал</legend>
+              <div>
+                <h3 class="form__title">Выберите зал</h3>
+
+                <div class="choseRoom">
                     <input type="button" name="room" value="80's vibes" class="formbutton">
 
                     <input type="button" name="room" value="Star wars" class="formbutton">
@@ -66,11 +67,11 @@
                     <input type="button" name="room" value="Wild west" class="formbutton">
 
                     <input type="button" name="room" value="Neon style" class="formbutton">
-                </fieldset>
-                <fieldset  class="category">
-                  <legend>Собери набор развлечений</legend>
-                  <fieldset class="activity">
-                    <legend>Приставка</legend>
+                </div>
+                <h3 class="form__title">Собери набор развлечений</h3>
+                <div  class="category">
+                  <div class="activity">
+                    <h3>Приставка</h3>
                     <label>
                       <input type="radio" name="game" value="PlayStation"> PlayStation
                     </label>
@@ -84,9 +85,9 @@
                       <input type="radio" name="game" value="Dendy"> Dendy
                     </label>
 
-                  </fieldset>
-                  <fieldset  class="activity">
-                    <legend>Настольные игры</legend>
+                  </div>
+                  <div  class="activity">
+                    <h3>Настольные игры</h3>
                     <label>
                       <input type="checkbox" name="tablegames" value="Jenga"> Jenga
                     </label>
@@ -99,41 +100,38 @@
                     <label>
                       <input type="checkbox" name="tablegames" value="Alias"> Alias
                     </label>
-
-                  </fieldset>
-                  <fieldset class="activity">
-                    <legend>Дополнительно</legend>
+                  </div>
+                  <div class="activity">
+                    <h3>Дополнительно</h3>
                     <label>
                       <input type="checkbox" name="additional" value="karaoke"> Караоке
                     </label>
                     <label>
                       <input type="checkbox" name="additional" value="VR"> VR
                     </label>
-
-                  </fieldset>
-                </fieldset>
-                <fieldset class="category">
-                  <legend>Выбери дату и время</legend>
+                  </div>
+                </div>
+                <h3 class="form__title">Выбери дату и время</h3>
+                <div class="category">
                   <div class="activity">
-                    <label>Дата*<input type="date" name="data" required></label>
-                    <label>Время*<input type="time" name="time" required></label>
+                    <div class="category">
+                      <input type="date" name="data" class="littlefield" required>
+                      <input type="time" name="time" class="littlefield" required>
+                    </div>
+                    <input name="amount" type="number"class="field" required>
                   </div>
                   <div class="activity">
-                    <label>Дата*<input type="date" name="data" required></label>
-                    <label>Время*<input type="time" name="time" required></label>
-                    <label>Сколько человек*<input name="amount" type="number" required></label>
-                  </div>
-                  <div class="activity">
-                    <label>Имя*<input type="text" name="firstName" required></label><br>
-                    <label>Фамилия*<input type="text" name="secondName" required></label><br>
+                    <input type="text" name="firstName" class="field" required>
+                    <input type="text" name="secondName" class="field" required>
                   </div>
                   <div  class="activity">
-                    <label>Телефон*<input type="tel" name="tel" required></label><br>
-                    <label>E-mail<input type="email" name="email"></label>
+                    <input type="tel" name="tel" class="submitbut" required>
+                    <input type="email" name="email" class="submitbut">
+                    <button type="submit" class="submitbut">Забронировать</button>
+
                   </div>
-                </fieldset>
-                <button type="submit">Забронировать</button>
-              </fieldset>
+                </div>
+              </div>
             </form>
           </section>
 
