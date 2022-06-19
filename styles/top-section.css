@@ -1,12 +1,9 @@
 
 .top-section {
-  width: 1180px;
-  height: 1019px;
-  background-image: url("../image/main.png");
-  background-repeat: no-repeat;
-  background-position: bottom 50px right;
   margin: 0 auto;
-
+  width: 1180px;
+  height: 1022px;
+  position: relative;
 }
 
 .top-section__title {
@@ -16,10 +13,20 @@
   line-height: 100%;
   letter-spacing: -0.1em;
   color: #FFFFFF;
+  margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+.top-section__title:before {
+  content: "";
+  width: 675px;
+  height: 762px;
+  top: 207px;
+  left: 505px;
   position: absolute;
-  z-index: -1;
+  background-image: url("../image/main.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .top-section__subtitle {
@@ -30,9 +37,7 @@
   line-height: 50px;
   color: #FFFFFF;
   margin-top: 0;
-  padding-top: 240px;
   padding-left: 100px;
-  position: absolute;
 }
 
 .menu {
