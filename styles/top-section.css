@@ -74,7 +74,9 @@ ul {
   text-align: center;
   vert-align: middle;
   margin-top: auto;
-margin-bottom: auto;}
+  margin-bottom: auto;
+  text-transform: uppercase;
+}
 
 .flexwrap {
   display: flex;
