@@ -58,7 +58,7 @@
               <h2 id="three" class="section-title">Забронировать зал просто</h2>
               <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
                 <div>
-                  <h3 class="form__title">Выберите зал</h3>
+                  <h3 class="form__title without">Выберите зал</h3>
 
                   <div class="choseRoom">
                     <input type="button" name="room" value="80's vibes" class="formbutton">
@@ -115,19 +115,23 @@
                   <h3 class="form__title">Выбери дату и время</h3>
                   <div class="category">
                     <div class="activity">
-                      <div class="category">
+                      <div class="category padtop">
                         <input type="date" name="data" class="littlefield" required>
                         <input type="time" name="time" class="littlefield" required>
                       </div>
                       <input name="amount" type="number"class="field" required>
                     </div>
-                    <div class="activity">
-                      <input type="text" name="firstName" class="field" required>
-                      <input type="text" name="secondName" class="field" required>
+                    <div class="activity gap">
+                      <label for="firstName">Имя</label>
+                      <input type="text" name="firstName" class="field" id="firstName">
+                      <label for="secondName">Фамилия</label>
+                      <input type="text" name="secondName" class="field" id="secondName" required>
                     </div>
-                    <div  class="activity">
-                      <input type="tel" name="tel" class="submitbut" required>
-                      <input type="email" name="email" class="submitbut">
+                    <div  class="activity gap">
+                      <label for="tel">Телефон</label>
+                      <input type="tel" name="tel" class="submitbut" id="tel" required>
+                      <label for="email">email</label>
+                      <input type="email" name="email" id="email" class="submitbut">
                       <button type="submit" class="submitbut">Забронировать</button>
 
                     </div>
