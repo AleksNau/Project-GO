@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-}
+justify-content: center;}
 .enter_item {
   background-repeat: no-repeat;
   width: 380px;
@@ -45,4 +45,7 @@ position: relative;
   letter-spacing: 0em;
   text-align: left;
 
+}
+.entertainment{
+  margin: 0 auto;
 }

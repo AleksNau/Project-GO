@@ -1,7 +1,7 @@
 .rooms{
   list-style-type: none;
   padding-left: 0;
-
+  text-align: center;
 }
 
 .rooms__item_vibes {
@@ -49,4 +49,3 @@
   color: #FFFFFF;
   margin-bottom: 50px;
 }
-
