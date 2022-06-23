@@ -10,6 +10,8 @@
   line-height: 50px;
   text-transform: uppercase;
   padding-bottom: 84px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts__paragraph_position:before {
@@ -75,6 +77,10 @@
 
 .contacts__paragraph_tel {
   white-space: break-spaces;
+}
+.footer {
+  width: 1180px;
+  margin: 0 auto;
 }
 
 
