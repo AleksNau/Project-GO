@@ -27,7 +27,7 @@
   line-height: 25px;
   color: #FFFFFF;
 }
-.activity-three_columns {
+.form__columns {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -85,7 +85,7 @@
   vertical-align: middle;
 }
 
-.checkbox {
+.form__checkbox {
   height: 25px;
   width: 25px;
   vertical-align: middle;

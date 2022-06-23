@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   gap: 20px;
 justify-content: center;}
-.enter_item {
+.entertainment__item {
   background-repeat: no-repeat;
   width: 380px;
   height: 228px;
@@ -34,7 +34,7 @@ justify-content: center;}
   background-image: url(../image/active/sony.jpg);
 }
 
-.enter_item__title {
+.entertainment__title {
 position: relative;
   top: 166px;
   left: 40px;

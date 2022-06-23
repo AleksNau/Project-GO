@@ -89,7 +89,7 @@ ul {
   gap: 96px;
 }
 
-.pinkBig {
+.top-section__number {
   font-weight: 900;
   font-size: 100px;
   line-height: 141px;
@@ -100,7 +100,7 @@ ul {
   color: #CD06FF;
 }
 
-.rownotpink {
+.top-section__description {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -110,7 +110,7 @@ ul {
   white-space: pre-line;
 }
 
-.pinkNew {
+.top-section__new {
   font-family: 'Arial';
   font-style: normal;
   font-weight: 900;
@@ -120,7 +120,7 @@ ul {
   color: #CD06FF;
 }
 
-.secondcolumn {
+.td-padding {
   padding-left: 40px;
 }
 .bigbutton {
