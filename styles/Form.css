@@ -1,4 +1,4 @@
-.formbutton {
+.form__button {
   width: 250px;
   height: 55px;
   background: #FFFFFF;
@@ -42,14 +42,14 @@
   justify-content: space-around;
 }
 
-.field {
+.form__input {
   width: 280px;
   height: 52px;
   background: #FFFFFF;
 }
 
 /* Rectangle 42 */
-.littlefield {
+.date-time {
   width: 134px;
   height: 52px;
   background: #FFFFFF;

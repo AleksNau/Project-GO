@@ -12,10 +12,10 @@
     <main>
       <div class="container">
       <section class="top-section">
-        <div class="flexwrap">
+        <div class="conteiner-row">
           <img class="logo" src="icons/logo.svg">
           <ul class="menu">
-            <li class="menu__item">О нас</li>
+            <li class="menu__item">Залы</li>
             <li class="menu__item">О нас</li>
             <li class="menu__item">Бронь</li>
             <li class="menu__item">отзывы</li>
@@ -74,13 +74,13 @@
                   <h3 class="form__title without">Выберите зал</h3>
 
                   <div class="choseRoom">
-                    <input type="button" name="room" value="80's vibes" class="formbutton">
+                    <input type="button" name="room" value="80's vibes" class="form__button">
 
-                    <input type="button" name="room" value="Star wars" class="formbutton">
+                    <input type="button" name="room" value="Star wars" class="form__button">
 
-                    <input type="button" name="room" value="Wild west" class="formbutton">
+                    <input type="button" name="room" value="Wild west" class="form__button">
 
-                    <input type="button" name="room" value="Neon style" class="formbutton">
+                    <input type="button" name="room" value="Neon style" class="form__button">
                   </div>
                   <h3 class="form__title">Собери набор развлечений</h3>
                   <div  class="category">
@@ -129,16 +129,16 @@
                   <div class="category">
                     <div class="activity">
                       <div class="category padtop">
-                        <input type="date" name="data" class="littlefield" required>
-                        <input type="time" name="time" class="littlefield" required>
+                        <input type="date" name="data" class="date-time" required>
+                        <input type="time" name="time" class="date-time" required>
                       </div>
-                      <input name="amount" type="number"class="field" required>
+                      <input name="amount" type="number"class="form__input" required>
                     </div>
                     <div class="activity gap">
                       <label for="firstName">Имя</label>
-                      <input type="text" name="firstName" class="field" id="firstName">
+                      <input type="text" name="firstName" class="form__input" id="firstName">
                       <label for="secondName">Фамилия</label>
-                      <input type="text" name="secondName" class="field" id="secondName" required>
+                      <input type="text" name="secondName" class="form__input" id="secondName" required>
                     </div>
                     <div  class="activity gap">
                       <label for="tel">Телефон</label>
@@ -146,14 +146,12 @@
                       <label for="email">email</label>
                       <input type="email" name="email" id="email" class="submitbut email">
                       <button type="submit" class="submitbut radius">Забронировать</button>
-
                     </div>
                   </div>
                 </div>
               </form>
             </div>
             </section>
-
         <section class="aboutus">
           <h2 id="two" class="section-title">О нас</h2>
           <div class="aboutus__left-side">
@@ -259,6 +257,13 @@
   </ul></div>
         <img src="./image/contacts/map.jpg" width="680" height="274" alt="">
       </div>
+      </div>
+      <div class="small">
+        <p class="small__text">© Game Over, 2022</p>
+        <ul class="small_list">
+          <li class="small__text">Design by Anastasia Ilina</li>
+          <li class="small__text">ilina9825@gmail.com</li>
+        </ul>
       </div>
     </footer>
   </body>

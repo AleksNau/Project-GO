@@ -84,7 +84,7 @@ ul {
   text-transform: uppercase;
 }
 
-.flexwrap {
+.conteiner-row {
   display: flex;
   gap: 96px;
 }
