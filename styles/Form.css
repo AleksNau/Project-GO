@@ -10,6 +10,25 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  border-style: none;
+}
+
+.form__button:hover {
+  background-color: #EADEED;
+  border: 3px solid #640AA3;
+  border-radius: 8px;
+}
+
+.form__button:focus {
+  background: #FFFFFF;
+  border: 3px solid #640AA3;
+  border-radius: 8px;
+}
+
+.form__button:active {
+  background-color: #6C0287;
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
 }
 
 .choseRoom {
@@ -48,12 +67,20 @@
   background: #FFFFFF;
 }
 
-/* Rectangle 42 */
+.form__input:focus {
+  border: 2px solid #CD06FF;
+}
+
 .date-time {
   width: 134px;
   height: 52px;
   background: #FFFFFF;
 }
+
+.date-time:focus {
+  border: 2px solid #CD06FF;
+}
+
 .form {
   background-color: #440F51;
 }
@@ -74,6 +101,10 @@
   width: 300px;
 }
 
+.submitbut:focus {
+  border: 2px solid #CD06FF;
+}
+
 .cont {
   width: 1080px;
   margin: 0 auto;
@@ -84,11 +115,17 @@
   width: 27px;
   vertical-align: middle;
 }
-
+.radio-button:focus {
+  border: 1px solid #CD06FF;
+}
 .form__checkbox {
   height: 25px;
   width: 25px;
   vertical-align: middle;
+}
+
+.form__checkbox:focus {
+  border: 1px solid #CD06FF;
 }
 
 .gap{
@@ -107,7 +144,7 @@
   margin-bottom: 40px;
 }
 
-.radius{
+.radius {
   border-radius: 10px;
   font-family: 'Arial';
   font-style: normal;
@@ -116,4 +153,24 @@
   line-height: 28px;
   text-transform: uppercase;
   color: #6C0287;
+  border-style: none;
 }
+.radius:hover {
+  background-color: #EADEED;
+  border: 3px solid #640AA3;
+  border-radius: 10px;
+}
+
+.radius:focus {
+  background: #FFFFFF;
+  border: 3px solid #6C0287;
+  border-radius: 10px;
+}
+
+.radius:active {
+  background-color: #EADEED;;
+  border: 3px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+
