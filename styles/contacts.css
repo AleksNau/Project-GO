@@ -109,6 +109,7 @@
 
 .contacts__svg:focus {
   fill: #EADEED;
+  border: 1px solid #CD06FF;
 }
 
 .contacts__svg:hover {
