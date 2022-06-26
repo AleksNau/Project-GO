@@ -150,10 +150,22 @@ ul {
   color: #FFFFFF;
   border-style: none;
 }
+.bigbutton:hover {
+  background-color: #840AA3;
+}
+
+.bigbutton:focus {
+  background-color: #840AA3;
+}
+
+.bigbutton:active {
+  background-color: #640AA3;
+}
 
 .table {
   margin-bottom: 150px;
 }
+
 .top-section__button-down {
   position: absolute;
   margin-left: 165px;
