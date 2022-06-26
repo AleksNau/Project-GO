@@ -107,3 +107,15 @@
   margin-bottom: 0;
 }
 
+.contacts__svg:focus {
+  fill: #EADEED;
+}
+
+.contacts__svg:hover {
+  fill: #EADEED;
+}
+
+.contacts__svg:active {
+  fill: #CD06FF;
+}
+
