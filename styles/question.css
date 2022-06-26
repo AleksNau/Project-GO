@@ -29,8 +29,46 @@
   margin-bottom: 0;
 }
 
-.question__button{
+.question__button-purple {
+  width: 46px;
+  height: 46px;
+  background-image: url("../icons/open-purple.svg");
+  background-repeat: no-repeat;
+  border-style: none;
+  background-color: transparent;
   float: right;
+}
+.question__button-purple:hover {
+  background-image: url("../icons/openPurple.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.question__button-purple:active {
+  background-image: url("../icons/closePurple.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.question__button-white {
+  width: 46px;
+  height: 46px;
+  background-image: url("../icons/open.png");
+  background-repeat: no-repeat;
+  border-style: none;
+  background-color: transparent;
+  float: right;
+}
+
+.question__button-white:hover {
+  background-image: url("../icons/openWhite.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.question__button-white:active {
+  background-image: url("../icons/closeWhite.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 .question {
