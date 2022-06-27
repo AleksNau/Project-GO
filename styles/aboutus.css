@@ -80,49 +80,49 @@
 }
 
 
-.oculus {
+.aboutus__oculus {
   background-image: url(../image/column_left/1st.jpg);
   background-repeat: no-repeat;
   width: 300px;
   height: 206px;
   display: table-cell;
 }
-.neon {
+.aboutus__neon {
   background-image: url(../image/column_left/2nd.jpg);
   background-repeat: no-repeat;
   width: 300px;
   height: 206px;
   display: table-cell;
 }
-.pcgames {
+.aboutus__pcgames {
   background-image: url(../image/column_left/3th.jpg);
   background-repeat: no-repeat;
   width: 164px;
   height: 224px;
   display: table-cell;
 }
-.gba {
+.aboutus__gba {
   background-image: url(../image/column_left/4th.jpg);
   background-repeat: no-repeat;
   width: 180px;
   height: 224px;
   display: table-cell;
 }
-.gemepad {
+.aboutus__gemepad {
   background-image: url(../image/column_left/5th.jpg);
   background-repeat: no-repeat;
   width: 256px;
   height: 224px;
   display: table-cell;
 }
-.singer {
+.aboutus__singer {
   background-image: url(../image/column_left/6s.jpg);
   background-repeat: no-repeat;
   width: 380px;
   height: 166px;
   display: table-cell;
 }
-.vr {
+.aboutus__vr {
   background-image: url(../image/column_left/7th.jpg);
   background-repeat: no-repeat;
   width: 220px;
