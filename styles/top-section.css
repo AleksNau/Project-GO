@@ -2,7 +2,7 @@
 .top-section {
   margin: 0 auto;
   width: 1180px;
-  height: 1022px;
+  height: 930px;
   position: relative;
 }
 
@@ -22,7 +22,7 @@
   content: "";
   width: 675px;
   height: 762px;
-  top: 207px;
+  top: 117px;
   left: 505px;
   position: absolute;
   background-image: url("../image/main.png");
@@ -168,7 +168,7 @@ ul {
   width: 400px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   justify-content: space-between;
 
 }
