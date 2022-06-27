@@ -8,12 +8,9 @@
   <title>О нас</title>
 </head>
   <body>
-    <header>
-    </header>
-    <main>
+    <header class="header">
       <div class="container">
-      <section class="top-section">
-        <div class="conteiner-row">
+        <nav class="conteiner-row">
           <img class="logo" src="icons/logo.svg">
           <ul class="menu">
             <li class="menu__item"><a href="#one">Залы</a></li>
@@ -23,31 +20,31 @@
             <li class="menu__item"><a href="#six">Контакты</a></li>
           </ul>
           <button class="ordernow" tabindex="0">Заказать звонок</button>
-        </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+      <section class="top-section">
         <h1 class="top-section__title">GAME OVER</h1>
         <p class="top-section__subtitle">Новый формат игр и отдыха</p>
-        <table class="table">
-          <tr >
-            <td class="top-section__number">4</td>
-            <td class="top-section__new td-padding">new</td>
-          </tr>
-          <tr class="top-section__description">
-            <td>Тематических
-              зала</td>
-            <td class="td-padding">Новейшая
-              аппаратура</td>
-          </tr>
-        </table>
-        <button class="bigbutton" tabindex="0">Забронировать
+        <div class="table">
+            <p class="top-section__number">4</p>
+            <p class="top-section__new">new</p>
+            <p class="top-section__description">Тематических
+              зала</p>
+            <p class="top-section__description">Новейшая
+              аппаратура</p>
+        </div>
+        <button class="top-section__order" tabindex="0">Забронировать
         </button>
         <button class="top-section__button-down">
-
         </button>
       </section>
         <section class="entertainment">
           <h2 class="section-title">У нас есть всё для классного отдыха с друзьями!</h2>
           <ul class="entertainment__list">
-            <li class="entertainment__item vr"></li>
+            <li class="entertainment__item vr"><h3 class="entertainment__title">VR очки</h3></li>
             <li class="entertainment__item audio"><h3 class="entertainment__title">Аудио-система 5.1
               с отличным звуком</h3></li>
             <li class="entertainment__item karaoke"><h3 class="entertainment__title">Караоке(4 микрофона)</h3></li>
@@ -57,7 +54,7 @@
             <li class="entertainment__item sony"><h3 class="entertainment__title">PlayStation 5</h3></li>
           </ul>
         </section>
-      <section >
+      <section>
         <h2 id="one" class="section-title">Наши залы</h2>
         <ul class="rooms">
           <li class="rooms__item rooms__item_vibes"><p>80's

@@ -109,6 +109,7 @@ ul {
   line-height: 141px;
   text-align: center;
   text-transform: uppercase;
+  padding-left: 60px;
   /* identical to box height */
 
   color: #CD06FF;
@@ -132,12 +133,13 @@ ul {
   line-height: 106px;
   font-variant: small-caps;
   color: #CD06FF;
+
 }
 
 .td-padding {
   padding-left: 40px;
 }
-.bigbutton {
+.top-section__order {
   width: 374px;
   height: 80px;
   background: #6C0287;
@@ -150,20 +152,25 @@ ul {
   color: #FFFFFF;
   border-style: none;
 }
-.bigbutton:hover {
+.top-section__order:hover {
   background-color: #840AA3;
 }
 
-.bigbutton:focus {
+.top-section__order:focus {
   background-color: #840AA3;
 }
 
-.bigbutton:active {
+.top-section__order:active {
   background-color: #640AA3;
 }
 
 .table {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 150px;
+  justify-content: space-between;
+
 }
 
 .top-section__button-down {
@@ -176,15 +183,21 @@ ul {
   background-repeat: no-repeat;
   border-style: none;
   background-color: transparent;
+
 }
 .top-section__button-down:hover {
   background-image: url("../image/top_section/downHover.png");
 }
 
 .top-section__button-down:focus {
-  border: 1px solid #840AA3;
+  outline: 1px solid #840AA3;
 }
 
 .top-section__button-down:active {
   background-image: url("../image/top_section/downActive.png");
+}
+
+.header {
+  margin: 0 auto;
+  width: 1180px;
 }
