@@ -28,7 +28,26 @@
 .question__item:last-child {
   margin-bottom: 0;
 }
-
+.question__item:nth-child(odd):hover .question__button-purple {
+  background-image: url("../icons/openPurple.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.question__item:nth-child(odd):active .question__button-purple {
+  background-image: url("../icons/closePurple.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.question__item:nth-child(even):hover .question__button-white{
+  background-image: url("../icons/openWhite.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.question__item:nth-child(even):active .question__button-white{
+  background-image: url("../icons/closeWhite.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
 .question__button-purple {
   width: 46px;
   height: 46px;
