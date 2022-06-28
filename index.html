@@ -68,21 +68,21 @@
         </ul>
       </section>
           <section class="form">
-            <div class="cont">
+            <div class="cont" tabindex="0">
               <h2 id="three" class="section-title">Забронировать зал просто</h2>
-              <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+              <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post" tabindex="0">
                 <div>
                   <h3 class="form__title without">Выберите зал</h3>
 
-                  <div class="choseRoom">
-                    <input type="button" name="room" value="80's vibes" class="form__button" tabindex="0">
+                  <fieldset class="choseRoom">
+                    <input type="radio" name="room" value="80's vibes" class="form__button">
 
-                    <input type="button" name="room" value="Star wars" class="form__button" tabindex="0">
+                    <input type="radio" name="room" value="Star wars" class="form__button">
 
-                    <input type="button" name="room" value="Wild west" class="form__button" tabindex="0">
+                    <input type="radio" name="room" value="Wild west" class="form__button">
 
-                    <input type="button" name="room" value="Neon style" class="form__button" tabindex="0">
-                  </div>
+                    <input type="radio" name="room" value="Neon style" class="form__button">
+                  </fieldset>
                   <h3 class="form__title">Собери набор развлечений</h3>
                   <div  class="category">
                     <div class="form__columns">
