@@ -78,10 +78,7 @@
 .contacts__paragraph_tel {
   white-space: break-spaces;
 }
-.footer {
-  width: 1180px;
-  margin: 0 auto;
-}
+
 .small__text {
   font-style: normal;
   font-weight: 400;
@@ -118,5 +115,13 @@
 
 .contacts__svg:active {
   fill: #CD06FF;
+}
+
+.footer__conteiner {
+  margin: 0 auto;
+  width: 1180px;
+}
+.footer {
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
