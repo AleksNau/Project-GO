@@ -72,21 +72,21 @@
               <h2 id="three" class="section-title">Забронировать зал просто</h2>
               <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post" tabindex="0">
                 <div>
-                  <h3 class="form__title without">Выберите зал</h3>
-
                   <fieldset class="choseRoom">
-                    <input type="radio" name="room" value="80's vibes" class="form__button">
-
-                    <input type="radio" name="room" value="Star wars" class="form__button">
-
-                    <input type="radio" name="room" value="Wild west" class="form__button">
-
-                    <input type="radio" name="room" value="Neon style" class="form__button">
+                    <legend class="form__title without">Выберите зал</legend>
+                    <label for="80's vibes" class="form__label-radio">80's vibes</label>
+                    <input type="radio" name="room" value="80's vibes" id="80's vibes" class="form__button">
+                    <label for="Star wars" class="form__label-radio">Star wars</label>
+                    <input type="radio" name="room" value="Star wars" id="Star wars"  class="form__button">
+                    <label for="Wild west" class="form__label-radio">Wild west</label>
+                    <input type="radio" name="room" value="Wild west" id="Wild west"  class="form__button">
+                    <label for="Neon style" class="form__label-radio">Neon style</label>
+                    <input type="radio" name="room" value="Neon style" id="Neon style"  class="form__button">
                   </fieldset>
-                  <h3 class="form__title">Собери набор развлечений</h3>
-                  <div  class="category">
-                    <div class="form__columns">
-                      <h3>Приставка</h3>
+                  <fieldset  class="category">
+                    <legend class="form__title">Собери набор развлечений</legend>
+                    <fieldset class="form__columns">
+                      <legend>Приставка</legend>
                       <label>
                         <input type="radio" name="game" value="PlayStation" class="radio-button" tabindex="0"> PlayStation
                       </label>
@@ -100,9 +100,9 @@
                         <input type="radio" name="game" value="Dendy" class="radio-button" tabindex="0"> Dendy
                       </label>
 
-                    </div>
-                    <div  class="form__columns">
-                      <h3>Настольные игры</h3>
+                    </fieldset>
+                    <fieldset  class="form__columns">
+                      <legend>Настольные игры</legend>
                       <label>
                         <input type="checkbox" name="tablegames" value="Jenga" class="form__checkbox" tabindex="0"> Jenga
                       </label>
@@ -115,40 +115,41 @@
                       <label>
                         <input type="checkbox" name="tablegames" value="Alias" class="form__checkbox" tabindex="0"> Alias
                       </label>
-                    </div>
-                    <div class="form__columns">
-                      <h3>Дополнительно</h3>
+                    </fieldset>
+                    <fieldset class="form__columns">
+                      <legend>Дополнительно</legend>
                       <label>
                         <input type="checkbox" name="additional" value="karaoke" class="form__checkbox" tabindex="0"> Караоке
                       </label>
                       <label>
                         <input type="checkbox" name="additional" value="VR" class="form__checkbox" tabindex="0"> VR
                       </label>
-                    </div>
-                  </div>
-                  <h3 class="form__title">Выбери дату и время</h3>
-                  <div class="category">
-                    <div class="activity">
+                    </fieldset>
+                  </fieldset>
+
+                  <fieldset class="category">
+                    <legend class="form__title">Выбери дату и время</legend>
+                    <fieldset class="activity">
                       <div class="category padtop">
                         <input type="date" name="data" class="date-time" tabindex="0" required>
                         <input type="time" name="time" class="date-time" tabindex="0" required>
                       </div>
                       <input name="amount" type="number"class="form__input" tabindex="0" required>
-                    </div>
-                    <div class="activity gap">
+                    </fieldset>
+                    <fieldset class="activity gap">
                       <label for="firstName">Имя</label>
                       <input type="text" name="firstName" class="form__input" id="firstName" tabindex="0">
                       <label for="secondName">Фамилия</label>
                       <input type="text" name="secondName" class="form__input" id="secondName" tabindex="0" required>
-                    </div>
-                    <div  class="activity gap">
+                    </fieldset>
+                    <fieldset  class="activity gap">
                       <label for="tel">Телефон</label>
                       <input type="tel" name="tel" class="submitbut" id="tel" tabindex="0" required>
                       <label for="email">email</label>
                       <input type="email" name="email" id="email" class="submitbut email" tabindex="0">
                       <button type="submit" class="submitbut radius">Забронировать</button>
-                    </div>
-                  </div>
+                    </fieldset>
+                  </fieldset>
                 </div>
               </form>
             </div>
