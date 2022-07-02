@@ -70,6 +70,7 @@
 .contacts__link {
   display: inline-block;
   margin-right: 27px;
+
 }
 
 .contacts__link:nth-last-child(1) {
