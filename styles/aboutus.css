@@ -46,10 +46,13 @@
 }
 
 .quote__picture {
+  background-image: url(../image/Arkadiy.jpg);
+  background-repeat: no-repeat;
   float:left;
   width: 80px;
   height: 80px;
   max-height: 96px;
+  background-size: 80px auto;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -72,6 +75,8 @@
 .quote__signature-conteiner {
   overflow:hidden;
   margin-top: 40px;
+  float: right;
+
 }
 
 .quote {
