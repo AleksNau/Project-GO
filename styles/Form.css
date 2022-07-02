@@ -79,7 +79,7 @@
 }
 
 .form__input:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 .date-time {
@@ -89,7 +89,7 @@
 }
 
 .date-time:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 .form {
@@ -111,9 +111,18 @@
   height: 52px;
   width: 300px;
 }
+.submit {
+  height: 52px;
+  width: 300px;
+}
+.submit:focus {
+  background: #FFFFFF;
+  border: 3px solid #6C0287;
+  border-radius: 10px;
+}
 
 .submitbut:focus {
-  border: 2px solid #CD06FF;
+  outline: 2px solid #CD06FF;
 }
 
 .cont {
@@ -129,7 +138,7 @@
 
 }
 .radio-button:focus {
-  border: 1px solid #CD06FF;
+  outline: 1px solid #CD06FF;
 }
 .form__checkbox {
   height: 25px;
@@ -139,7 +148,7 @@
 }
 
 .form__checkbox:focus {
-  border: 1px solid #CD06FF;
+  outline: 1px solid #CD06FF;
 }
 
 .gap{
