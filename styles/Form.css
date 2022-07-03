@@ -17,6 +17,8 @@
   height: 55px;
   text-align: center;
   text-transform: uppercase;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
 .form__label-radio:hover {
@@ -76,6 +78,8 @@
   width: 280px;
   height: 52px;
   background: #FFFFFF;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
 .form__input:focus {
@@ -86,6 +90,8 @@
   width: 134px;
   height: 52px;
   background: #FFFFFF;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
 .date-time:focus {
@@ -110,10 +116,14 @@
 .submitbut {
   height: 52px;
   width: 300px;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 .submit {
   height: 52px;
   width: 300px;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
 }
 .submit:focus {
   background: #FFFFFF;
@@ -145,21 +155,23 @@
   width: 25px;
   margin-right: 5px;
   vertical-align: bottom;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
 .form__checkbox:focus {
   outline: 1px solid #CD06FF;
 }
 
-.gap{
+.gap {
   gap: 10px;
 }
 
-.without{
+.without {
   padding-top: 0;
 }
 
-.padtop{
+.padtop {
   padding-top: 25px;
 }
 
@@ -177,6 +189,8 @@
   text-transform: uppercase;
   color: #6C0287;
   border-style: none;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 .radius:hover {
   background-color: #EADEED;

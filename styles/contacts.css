@@ -106,9 +106,15 @@
   margin-bottom: 0;
 }
 
+.contacts__svg {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
 .contacts__svg:focus {
   fill: #EADEED;
   outline: 1px solid #CD06FF;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
 .contacts__svg:hover {
@@ -123,6 +129,7 @@
   margin: 0 auto;
   width: 1180px;
 }
+
 .footer {
   background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }

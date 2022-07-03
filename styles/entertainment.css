@@ -4,13 +4,23 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-justify-content: center;}
+  justify-content: center;
+}
+
 .entertainment__item {
   background-repeat: no-repeat;
   width: 380px;
   height: 228px;
 
 }
+
+.entertainment__item:hover {
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .vr {
   background-image: url(../image/active/vr.jpg);
 }

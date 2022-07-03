@@ -84,6 +84,8 @@ ul {
   text-transform: uppercase;
   background-color: #1B1A1B;
   color: #FFFFFF;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
 .ordernow:focus {
@@ -153,6 +155,8 @@ ul {
   text-transform: uppercase;
   color: #FFFFFF;
   border-style: none;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 .top-section__order:hover {
   background-color: #840AA3;
@@ -185,6 +189,8 @@ ul {
   background-repeat: no-repeat;
   border-style: none;
   background-color: transparent;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 
 }
 .top-section__button-down:hover {

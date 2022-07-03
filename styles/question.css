@@ -57,6 +57,8 @@
   border-style: none;
   background-color: transparent;
   float: right;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 .question__button-purple:hover {
   background-image: url("../icons/openPurple.png");
@@ -77,6 +79,8 @@
   border-style: none;
   background-color: transparent;
   float: right;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
 .question__button-white:hover {
