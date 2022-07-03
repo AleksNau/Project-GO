@@ -20,27 +20,22 @@
   transform: scale(1.1);
   cursor: pointer;
 }
-
-.vr {
+.entertainment__item:nth-child(1){
   background-image: url(../image/active/vr.jpg);
 }
-
-.audio {
+.entertainment__item:nth-child(2){
   background-image: url(../image/active/audio.jpg);
-
 }
-.karaoke {
+.entertainment__item:nth-child(3){
   background-image: url(../image/active/micro.jpg);
 }
-.tablegames {
+.entertainment__item:nth-child(4){
   background-image: url(../image/active/game.jpg);
 }
-
-.netflix {
+.entertainment__item:nth-child(5){
   background-image: url(../image/active/netflix.jpg);
 }
-
-.sony {
+.entertainment__item:nth-child(6){
   background-image: url(../image/active/sony.jpg);
 }
 

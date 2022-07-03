@@ -43,6 +43,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0;
+  margin-bottom: 60px;
 }
 
 .activity {
@@ -72,6 +73,11 @@
   display: flex;
   justify-content: space-around;
   padding: 0;
+  margin-bottom: 60px;
+}
+
+.category:last-child {
+  margin-bottom: 0;
 }
 
 .form__input {
@@ -109,7 +115,6 @@
   line-height: 28px;
   text-align: center;
   color: #FFFFFF;
-  padding-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -167,12 +172,10 @@
   gap: 10px;
 }
 
-.without {
-  padding-top: 0;
-}
-
 .padtop {
   padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .email {
