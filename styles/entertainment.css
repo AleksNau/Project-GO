@@ -40,17 +40,13 @@
 }
 
 .entertainment__title {
-position: relative;
+  position: relative;
   top: 166px;
   left: 40px;
   white-space: pre-line;
   font-size: 20px;
   font-weight: 700;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
-
 }
-.entertainment{
+.entertainment {
   margin: 0 auto;
 }
