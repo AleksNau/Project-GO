@@ -55,6 +55,11 @@
   padding-top: 0;
 }
 
+.form__label-radio:checked {
+  background: #6C0287;
+  outline: 3px solid #640AA3;
+  border-radius: 8px;
+}
 
 
 .form__column-time {
