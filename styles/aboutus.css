@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-.aboutus__slogan-margin {
+.aboutus__slogan {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -14,6 +14,9 @@
   margin-bottom: 40px;
 }
 
+.aboutus__slogan:last-child{
+  margin-bottom: 0;
+}
 
 .quote__game-cite {
   font-style: normal;

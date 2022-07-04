@@ -14,7 +14,7 @@
   justify-content: space-between;
 }
 
-.contacts__paragraph_position:before {
+.contacts__paragraph:nth-child(1):before {
   content: url(../image/contacts/location.svg);
   height: 29px;
   color:#CD06FF;
@@ -23,7 +23,7 @@
   padding-right: 24px;
 }
 
-.contacts__paragraph_tel:before {
+.contacts__paragraph:nth-child(2):before {
   content: url(../image/contacts/tel.svg);
   height: 29px;
   width: 24px;
@@ -33,7 +33,7 @@
   top: 8px;
 }
 
-.contacts__paragraph_mail:before {
+.contacts__paragraph:nth-child(3):before {
   content: url(../image/contacts/mail.svg);
   height: 29px;
   width: 24px;
@@ -53,7 +53,7 @@
 
 }
 
-.contacts__paragraph_position{
+.contacts__paragraph:nth-child(1) {
   white-space: pre-line;
   padding-left: 60px;
   text-indent:-60px;
@@ -77,8 +77,9 @@
   margin-right: 0;
 }
 
-.contacts__paragraph_tel {
+.contacts__paragraph:nth-child(2) {
   white-space: break-spaces;
+  margin-bottom: 14px;
 }
 
 .small__text {
