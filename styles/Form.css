@@ -55,9 +55,15 @@
   padding-top: 0;
 }
 
-.form__label-radio:checked {
-  background: #6C0287;
+.form__label-radio:disabled {
+  background:white;
   outline: 3px solid #640AA3;
+  border-radius: 8px;
+}
+
+.form__label-radio:not(:disabled) {
+  background:white;
+  outline: 5px solid #640AA3;
   border-radius: 8px;
 }
 
