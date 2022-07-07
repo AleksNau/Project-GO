@@ -101,6 +101,7 @@
   background: #FFFFFF;
   transition-duration: 300ms;
   transition-timing-function: linear;
+  padding-left: 20px;
 }
 
 .form__input:focus {
