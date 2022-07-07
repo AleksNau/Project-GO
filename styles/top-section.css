@@ -60,8 +60,9 @@
   flex: none;
   order: 4;
   flex-grow: 0;
+  cursor: pointer;
 }
-/*сбросить стили списка*/
+
 ul {
   padding-left: 0;
 }
