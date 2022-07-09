@@ -17,7 +17,7 @@
 .contacts__paragraph:nth-child(1):before {
   content: url(../image/contacts/location.svg);
   height: 29px;
-  color:#CD06FF;
+  color:var(--first-color);
   position: relative;
   top: 20px;
   padding-right: 24px;
@@ -27,7 +27,7 @@
   content: url(../image/contacts/tel.svg);
   height: 29px;
   width: 24px;
-  color:#CD06FF;
+  color:var(--first-color);
   padding-right: 24px;
   position: relative;
   top: 8px;
@@ -114,7 +114,7 @@
 }
 .contacts__svg:focus {
   fill: #EADEED;
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--first-color);
   transition-duration: 300ms;
   transition-timing-function: linear;
 }
@@ -124,7 +124,7 @@
 }
 
 .contacts__svg:active {
-  fill: #CD06FF;
+  fill: var(--first-color);
 }
 
 .footer__conteiner {

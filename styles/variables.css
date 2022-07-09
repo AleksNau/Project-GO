@@ -1,12 +1,7 @@
+
 html {
-  --main-purple: #6C0287;
-  --active-color: purple;
-  --background-main:black;
-  --border-color: purple;
-}
-html {
-  --hover-back: #6C0287;
-  --active-color: purple;
-  --background-main:black;
-  --border-focus-hover: #6C0287;
+  --first-color:#CD06FF;
+  --second-color:#640AA3;
+  --third-color:#6C0287;
+  --fours-color:#840AA3;
 }
