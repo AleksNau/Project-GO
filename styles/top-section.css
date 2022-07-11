@@ -126,6 +126,7 @@ ul {
   font-weight: 400;
   font-size: 30px;
   line-height: 34px;
+  min-width: 163px;
   text-align: center;
   color: #FFFFFF;
   white-space: pre-line;
