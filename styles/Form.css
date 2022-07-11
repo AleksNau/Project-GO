@@ -213,7 +213,7 @@
   margin-bottom: 40px;
 }
 
-.radius {
+.form__button-booking {
   height: 52px;
   width: 300px;
   border-radius: 10px;
@@ -228,19 +228,19 @@
   transition-duration: 300ms;
   transition-timing-function: linear;
 }
-.radius:hover {
+.form__button-booking:hover {
   background-color: #EADEED;
   border: 3px solid var(--second-color);
   border-radius: 10px;
 }
 
-.radius:focus {
+.form__button-booking:focus {
   background: #FFFFFF;
   border: 3px solid var(--third-color);
   border-radius: 10px;
 }
 
-.radius:active {
+.form__button-booking:active {
   background-color: #EADEED;;
   border: 3px solid #FFFFFF;
   border-radius: 10px;
