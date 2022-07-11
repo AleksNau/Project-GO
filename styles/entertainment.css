@@ -1,4 +1,4 @@
-.entertainment__list {
+.entertainment-list {
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -7,39 +7,39 @@
   justify-content: center;
 }
 
-.entertainment__item {
+.entertainment-list__item {
   background-repeat: no-repeat;
   width: 380px;
   height: 228px;
 
 }
 
-.entertainment__item:hover {
+.entertainment-list__item:hover {
   transition-duration: 300ms;
   transition-timing-function: linear;
   transform: scale(1.1);
   cursor: pointer;
 }
-.entertainment__item:nth-child(1){
+.entertainment-list__item:nth-child(1){
   background-image: url(../image/active/vr.jpg);
 }
-.entertainment__item:nth-child(2){
+.entertainment-list__item:nth-child(2){
   background-image: url(../image/active/audio.jpg);
 }
-.entertainment__item:nth-child(3){
+.entertainment-list__item:nth-child(3){
   background-image: url(../image/active/micro.jpg);
 }
-.entertainment__item:nth-child(4){
+.entertainment-list__item:nth-child(4){
   background-image: url(../image/active/game.jpg);
 }
-.entertainment__item:nth-child(5){
+.entertainment-list__item:nth-child(5){
   background-image: url(../image/active/netflix.jpg);
 }
-.entertainment__item:nth-child(6){
+.entertainment-list__item:nth-child(6){
   background-image: url(../image/active/sony.jpg);
 }
 
-.entertainment__title {
+.entertainment-list__title {
   position: relative;
   top: 166px;
   left: 40px;
