@@ -115,7 +115,7 @@ ul {
   line-height: 141px;
   text-align: center;
   text-transform: uppercase;
-  padding-left: 60px;
+  min-width: 193px;
   /* identical to box height */
 
   color: var(--first-color);
@@ -139,6 +139,8 @@ ul {
   line-height: 106px;
   font-variant: small-caps;
   color:var(--first-color);
+  min-width: 166px;
+  text-align: center;
   display: flex;
   align-items: flex-end;
 
@@ -217,6 +219,8 @@ ul {
 }
 
 .flex-column{
+  min-width: 166px;
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
