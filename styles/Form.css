@@ -163,14 +163,14 @@
   margin: 0 auto;
 }
 
-.radio-button {
+.form__radio-button {
   height: 27px;
   width: 27px;
   vertical-align: text-bottom;
   margin-right: 5px;
 
 }
-.radio-button:focus {
+.form__radio-button:focus {
   outline: 1px solid var(--first-color);
 }
 .form__checkbox {
