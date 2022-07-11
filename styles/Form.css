@@ -60,9 +60,13 @@
 
 
 .form__column-time {
+  margin-top: 26px;
+  width: 300px;
+  height: 150px;
   display: flex;
-  flex-direction: column;
-  gap: 40px;
+  row-gap: 36px;
+  column-gap: 32px;
+  flex-wrap: wrap;
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
@@ -104,6 +108,10 @@
   padding-left: 20px;
 }
 
+.amount {
+  width: 300px;
+}
+
 .form__input:focus {
   outline: 2px solid var(--first-color);
 }
@@ -114,6 +122,11 @@
   background: #FFFFFF;
   transition-duration: 300ms;
   transition-timing-function: linear;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .date-time:focus {
