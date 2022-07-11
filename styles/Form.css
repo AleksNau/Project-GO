@@ -47,7 +47,7 @@
   margin-bottom: 60px;
 }
 
-.activity {
+.form__activity {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -84,14 +84,14 @@
   padding-top: 0;
 }
 
-.category {
+.form__parameters {
   display: flex;
   justify-content: space-around;
   padding: 0;
   margin-bottom: 60px;
 }
 
-.category:last-child {
+.form__parameters:last-child {
   margin-bottom: 0;
 }
 
