@@ -153,6 +153,7 @@
   width: 300px;
   transition-duration: 300ms;
   transition-timing-function: linear;
+  padding-left: 20px;
 }
 
 .submit {
