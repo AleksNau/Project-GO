@@ -135,22 +135,24 @@
 
                   <fieldset class="form__parameters">
                     <legend class="form__title">Выбери дату и время</legend>
-                    <div class="form__column-time">
-                        <input type="date" name="data" class="date-time" tabindex="0" placeholder="ДАТА" required>
-                        <input type="time" name="time" class="date-time" tabindex="0" placeholder="ВРЕМЯ" required>
-                        <input name="amount" type="number" class="form__input amount" tabindex="0" placeholder="Сколько человек" required>
+                    <div class="form__test">
+                        <div class="form__row">
+                          <input type="date" name="data" class="date-time" tabindex="0" placeholder="ДАТА" required>
+                          <input type="time" name="time" class="date-time" tabindex="0" placeholder="ВРЕМЯ" required>
+                        </div>
+                        <input name="amount" type="number" class="form__input" tabindex="0" placeholder="Сколько человек" required>
                     </div>
-                    <div class="form__activity">
+                    <div class="form__test">
                       <label for="firstName" class="form__label-small">Имя</label>
                       <input type="text" name="firstName" class="form__input" id="firstName" tabindex="0">
                       <label for="secondName" class="form__label-small">Фамилия</label>
                       <input type="text" name="secondName" class="form__input" id="secondName" tabindex="0" required>
                     </div>
-                    <div  class="form__activity">
+                    <div  class="form__test">
                       <label for="tel" class="form__label-small">Телефон</label>
-                      <input type="tel" name="tel" class="form__input-info" id="tel" tabindex="0" required>
+                      <input type="tel" name="tel" class="form__input" id="tel" tabindex="0" required>
                       <label for="email" class="form__label-small">email</label>
-                      <input type="email" name="email" id="email" class="form__input-info email" tabindex="0">
+                      <input type="email" name="email" id="email" class="form__input email" tabindex="0">
                       <button type="submit" class="form__button-booking" tabindex="0">Забронировать</button>
                     </div>
                   </fieldset>
