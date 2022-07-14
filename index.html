@@ -91,7 +91,7 @@
                   </fieldset>
                   <fieldset  class="form__parameters">
                     <legend class="form__title">Собери набор развлечений</legend>
-                    <fieldset class="form__columns">
+                    <fieldset class="form__columns-activity">
                       <legend class="form__subtitle">Приставка:</legend>
                       <label>
                         <input type="radio" name="game" value="PlayStation" class="form__radio-button" tabindex="0"> PlayStation
@@ -107,7 +107,7 @@
                       </label>
 
                     </fieldset>
-                    <fieldset  class="form__columns">
+                    <fieldset  class="form__columns-activity">
                       <legend class="form__subtitle">Настольные игры</legend>
                       <label>
                         <input type="checkbox" name="tablegames" value="Jenga" class="form__checkbox" tabindex="0"> Jenga
@@ -122,7 +122,7 @@
                         <input type="checkbox" name="tablegames" value="Alias" class="form__checkbox" tabindex="0"> Alias
                       </label>
                     </fieldset>
-                    <fieldset class="form__columns">
+                    <fieldset class="form__columns-activity">
                       <legend class="form__subtitle">Дополнительно</legend>
                       <label>
                         <input type="checkbox" name="additional" value="karaoke" class="form__checkbox" tabindex="0"> Караоке
@@ -135,20 +135,20 @@
 
                   <fieldset class="form__parameters">
                     <legend class="form__title">Выбери дату и время</legend>
-                    <div class="form__test">
+                    <div class="form__column">
                       <div class="form__row">
                         <input type="date" name="data" class="date-time" tabindex="0" placeholder="ДАТА" required>
                         <input type="time" name="time" class="date-time" tabindex="0" placeholder="ВРЕМЯ" required>
                       </div>
                       <input name="amount" type="number" class="form__input" tabindex="0" placeholder="Сколько человек" required>
                     </div>
-                    <div class="form__test">
+                    <div class="form__column">
                       <label for="firstName" class="form__label-small">Имя</label>
                       <input type="text" name="firstName" class="form__input" id="firstName" tabindex="0">
                       <label for="secondName" class="form__label-small">Фамилия</label>
                       <input type="text" name="secondName" class="form__input" id="secondName" tabindex="0" required>
                     </div>
-                    <div  class="form__test">
+                    <div  class="form__column">
                       <label for="tel" class="form__label-small">Телефон</label>
                       <input type="tel" name="tel" class="form__input" id="tel" tabindex="0" required>
                       <label for="email" class="form__label-small">email</label>

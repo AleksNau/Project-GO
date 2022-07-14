@@ -76,7 +76,7 @@
 
 }
 
-.form__columns {
+.form__columns-activity {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -262,7 +262,7 @@
   line-height: 16px;
 }
 
-.form__columns {
+.form__columns-activity {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -280,21 +280,21 @@
   margin-bottom: 26px;
 }
 
-.form__test {
+.form__column {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding-bottom: 0;
   padding-top: 0;
 }
-.form__test:nth-child(2) {
+.form__column:nth-child(2) {
   width: 300px;
 }
 
-.form__test:nth-child(3) {
+.form__column:nth-child(3) {
   width: 280px;
 }
 
-.form__test:nth-child(4) {
+.form__column:nth-child(4) {
   width: 300px;
 }
