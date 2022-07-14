@@ -2,6 +2,12 @@
   display: none;
 }
 
+.form__button:checked+.form__label-radio {
+  background-color: var(--third-color);
+  border: 3px solid #FFFFFF;
+  border-radius: 8px;
+}
+
 .form__label-radio {
   display: inline-block;
   cursor: pointer;
