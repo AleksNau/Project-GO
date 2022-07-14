@@ -101,6 +101,7 @@
 
 .form__input {
   width: 100%;
+  overflow: hidden;
   height: 52px;
   background: #FFFFFF;
   transition-duration: 300ms;
@@ -114,23 +115,6 @@
 }
 
 .form__input:focus {
-  outline: 2px solid var(--first-color);
-}
-
-.date-time {
-  width: 134px;
-  height: 52px;
-  background: #FFFFFF;
-  transition-duration: 300ms;
-  transition-timing-function: linear;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.date-time:focus {
   outline: 2px solid var(--first-color);
 }
 
