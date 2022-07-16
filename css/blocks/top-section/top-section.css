@@ -182,11 +182,10 @@ ul {
   display: flex;
  /* flex-wrap: wrap;*/
   justify-content: space-between;
+  margin-bottom: 100px;
 
 }
-.table:last-child {
-  margin-bottom: 100px;
-}
+
 
 .top-section__button-down {
   position: absolute;
@@ -219,9 +218,8 @@ ul {
   width: 1180px;
 }
 
-.flex-column{
-  min-width: 166px;
-  text-align: center;
+.flex-column {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
