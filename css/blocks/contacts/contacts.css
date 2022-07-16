@@ -54,7 +54,7 @@
 
 }
 
-.contacts__paragraph:nth-child(1) {
+.adress {
   white-space: pre-line;
   padding-left: 60px;
   text-indent:-60px;
@@ -78,7 +78,7 @@
   margin-right: 0;
 }
 
-.contacts__paragraph:nth-child(2) {
+.tel-number {
   white-space: break-spaces;
   margin-bottom: 14px;
 }
