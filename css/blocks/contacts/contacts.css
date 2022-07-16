@@ -1,0 +1,138 @@
+.contacts-title {
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.contacts {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding-bottom: 156px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__paragraph:nth-child(1):before {
+  content: url(../contacts/image/location.svg);
+  height: 29px;
+  color:var(--first-color);
+  position: relative;
+  top: 20px;
+  padding-right: 24px;
+}
+
+.contacts__paragraph:nth-child(2):before {
+  content: url(../contacts/image/tel.svg);
+  height: 29px;
+  width: 24px;
+  color:var(--first-color);
+  padding-right: 24px;
+  position: relative;
+  top: 8px;
+}
+
+.contacts__paragraph:nth-child(3):before {
+  content: url(../contacts/image/mail.svg);
+  height: 29px;
+  width: 24px;
+  color:#CD06FF;
+  padding-right: 24px;
+  position: relative;
+  top: 8px;
+}
+
+.contacts__paragraph {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+
+}
+
+.contacts__paragraph:nth-child(1) {
+  white-space: pre-line;
+  padding-left: 60px;
+  text-indent:-60px;
+  margin-bottom: 35px;
+}
+
+.contacts__links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.contacts__link {
+  display: inline-block;
+  margin-right: 27px;
+
+}
+
+.contacts__link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.contacts__paragraph:nth-child(2) {
+  white-space: break-spaces;
+  margin-bottom: 14px;
+}
+
+.small__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-bottom: 6px;
+}
+.small {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  margin: 0;
+}
+
+.list {
+  margin: 0;
+  list-style-type: none;
+}
+
+.small__text:last-child{
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+.contacts__svg {
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+.contacts__svg:focus {
+  fill: #EADEED;
+  outline: 1px solid var(--first-color);
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.contacts__svg:hover {
+  fill: #EADEED;
+}
+
+.contacts__svg:active {
+  fill: var(--first-color);
+}
+
+.footer__conteiner {
+  margin: 0 auto;
+  width: 1180px;
+}
+
+.footer {
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+

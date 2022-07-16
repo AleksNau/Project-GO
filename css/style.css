@@ -1,0 +1,11 @@
+@import "variables.css";
+@import "global.css";
+@import "normalize.css";
+@import "./blocks/top-section/top-section.css";
+@import "./blocks/rooms/rooms.css";
+@import "./blocks/aboutus/aboutus.css";
+@import "./blocks/contacts/contacts.css";
+@import "./blocks/question/question.css";
+@import "./blocks/guests/guests.css";
+@import "./blocks/enterteiment/entertainment.css";
+@import "./blocks/Form/Form.css";

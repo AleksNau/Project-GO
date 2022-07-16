@@ -1,0 +1,155 @@
+.aboutus {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0 auto;
+}
+
+.aboutus__slogan {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.aboutus__slogan:last-child{
+  margin-bottom: 0;
+}
+
+.quote__game-cite {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  white-space: pre-line;
+  padding-left: 36px;
+  text-indent:-36px;
+}
+
+.quote__game-cite:before {
+  content: "“ ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+.quote__game-cite:after {
+  content: "”";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: var(--third-color);
+  padding-left: 10px;
+}
+
+.quote__picture {
+  background-image: url(../aboutus/image/Arkadiy.jpg);
+  background-repeat: no-repeat;
+  float:left;
+  width: 80px;
+  height: 80px;
+  max-height: 96px;
+  background-size: 80px auto;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.quote__picture-title {
+  float:right;
+  margin-left: 29px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-transform: none;
+  white-space: pre-line;
+}
+
+.quote__signature {
+  float: right;
+}
+
+.quote__signature-conteiner {
+  overflow:hidden;
+  margin-top: 40px;
+  float: right;
+
+}
+
+.quote {
+  padding: 0;
+  margin-top: 59px;
+}
+
+
+.aboutus__oculus {
+  background-image: url(../aboutus/image/1st.jpg);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 206px;
+  display: table-cell;
+}
+.aboutus__neon {
+  background-image: url(../aboutus/image/2nd.jpg);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 206px;
+  display: table-cell;
+}
+.aboutus__pcgames {
+  background-image: url(../aboutus/image/3th.jpg);
+  background-repeat: no-repeat;
+  width: 164px;
+  height: 224px;
+  display: table-cell;
+}
+.aboutus__gba {
+  background-image: url(../aboutus/image/4th.jpg);
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 224px;
+  display: table-cell;
+}
+.aboutus__gemepad {
+  background-image: url(../aboutus/image/5th.jpg);
+  background-repeat: no-repeat;
+  width: 256px;
+  height: 224px;
+  display: table-cell;
+}
+.aboutus__singer {
+  background-image: url(../aboutus/image/6s.jpg);
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 166px;
+  display: table-cell;
+}
+.aboutus__vr {
+  background-image: url(../aboutus/image/7th.jpg);
+  background-repeat: no-repeat;
+  width: 220px;
+  display: table-cell;
+  height: 166px;
+}
+.aboutus__left-side{
+  display: inline-block;
+  width: 600px;
+  margin-right: 74px;
+  vertical-align: top;
+}
+.aboutus__right-side{
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+
+}
+.aboutus{
+  width: 1180px;
+}
+
