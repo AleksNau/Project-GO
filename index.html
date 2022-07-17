@@ -81,79 +81,200 @@
               <form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post" tabindex="0">
                   <fieldset class="chooseRoom">
                     <legend class="form__title">Выберите зал</legend>
-                    <input type="radio" name="room" value="80's vibes" id="80's vibes" class="form__button visually-hidden">
+                    <input
+                           type="radio"
+                           name="room"
+                           value="80's vibes"
+                           id="80's vibes"
+                           class="form__button visually-hidden">
                     <label for="80's vibes" class="form__label-radio" tabindex="0" >80's vibes</label>
-                    <input type="radio" name="room" value="Star wars" id="Star wars"  class="form__button visually-hidden">
+                    <input
+                           type="radio"
+                           name="room"
+                           value="Star wars"
+                           id="Star wars"
+                           class="form__button visually-hidden">
                     <label for="Star wars" class="form__label-radio" tabindex="0">Star wars</label>
-                    <input type="radio" name="room" value="Wild west" id="Wild west"  class="form__button visually-hidden">
+                    <input
+                           type="radio"
+                           name="room"
+                           value="Wild west"
+                           id="Wild west"
+                           class="form__button visually-hidden">
                     <label for="Wild west" class="form__label-radio" tabindex="0">Wild west</label>
-                    <input type="radio" name="room" value="Neon style" id="Neon style"  class="form__button visually-hidden">
+                    <input
+                           type="radio"
+                           name="room"
+                           value="Neon style"
+                           id="Neon style"
+                           class="form__button visually-hidden">
                     <label for="Neon style" class="form__label-radio" tabindex="0">Neon style</label>
                   </fieldset>
                   <fieldset  class="form__parameters">
                     <legend class="form__title">Собери набор развлечений</legend>
-                    <fieldset class="form__columns-activity">
+                    <fieldset class="form__columns-activity form__column_size_compressed">
                       <legend class="form__subtitle">Приставка:</legend>
                       <label>
-                        <input type="radio" name="game" value="PlayStation" class="form__radio-button" tabindex="0"> PlayStation
+                        <input
+                          id="playstation"
+                          type="radio"
+                          name="game"
+                          value="PlayStation"
+                          class="form__radio-button"
+                          tabindex="0"> PlayStation
                       </label>
                       <label>
-                        <input type="radio" name="game" value="Sega Mega Drive" class="form__radio-button" tabindex="0"> Sega Mega Drive
+                        <input
+                          id="Sega Mega Drive"
+                          type="radio"
+                          name="game"
+                          value="Sega Mega Drive"
+                          class="form__radio-button"
+                          tabindex="0"> Sega Mega Drive
                       </label>
                       <label>
-                        <input type="radio" name="game" value="X-box One S" class="form__radio-button" tabindex="0"> X-box One S
+                        <input
+                          id="X-box One S"
+                          type="radio"
+                          name="game"
+                          value="X-box One S"
+                          class="form__radio-button"
+                          tabindex="0"> X-box One S
                       </label>
                       <label>
-                        <input type="radio" name="game" value="Dendy" class="form__radio-button" tabindex="0"> Dendy
+                        <input
+                          id="Dendy"
+                          type="radio"
+                          name="game"
+                          value="Dendy"
+                          class="form__radio-button"
+                          tabindex="0"> Dendy
                       </label>
 
                     </fieldset>
-                    <fieldset  class="form__columns-activity">
+                    <fieldset  class="form__columns-activity form__column_size_normal">
                       <legend class="form__subtitle">Настольные игры</legend>
                       <label>
-                        <input type="checkbox" name="tablegames" value="Jenga" class="form__checkbox" tabindex="0"> Jenga
+                        <input type="checkbox"
+                               name="tablegames"
+                               value="Jenga"
+                               class="form__checkbox"
+                               tabindex="0"> Jenga
                       </label>
                       <label>
-                        <input type="checkbox" name="tablegames" value="Monopoly" class="form__checkbox" tabindex="0"> Monopoly
+                        <input type="checkbox"
+                               name="tablegames"
+                               value="Monopoly"
+                               class="form__checkbox"
+                               tabindex="0"> Monopoly
                       </label>
                       <label>
-                        <input type="checkbox" name="tablegames" value="Манчикин" class="form__checkbox" tabindex="0"> Манчикин
+                        <input type="checkbox"
+                               name="tablegames"
+                               value="Манчикин"
+                               class="form__checkbox"
+                               tabindex="0"> Манчикин
                       </label>
                       <label>
-                        <input type="checkbox" name="tablegames" value="Alias" class="form__checkbox" tabindex="0"> Alias
+                        <input type="checkbox"
+                               name="tablegames"
+                               value="Alias"
+                               class="form__checkbox"
+                               tabindex="0"> Alias
                       </label>
                     </fieldset>
-                    <fieldset class="form__columns-activity">
+                    <fieldset class="form__columns-activity form__column_size_normal">
                       <legend class="form__subtitle">Дополнительно</legend>
                       <label>
-                        <input type="checkbox" name="additional" value="karaoke" class="form__checkbox" tabindex="0"> Караоке
+                        <input
+                               type="checkbox"
+                               name="additional"
+                               value="karaoke"
+                               class="form__checkbox"
+                               tabindex="0"> Караоке
                       </label>
                       <label>
-                        <input type="checkbox" name="additional" value="VR" class="form__checkbox" tabindex="0"> VR
+                        <input
+                               type="checkbox"
+                               name="additional"
+                               value="VR"
+                               class="form__checkbox"
+                               tabindex="0"> VR
                       </label>
                     </fieldset>
                   </fieldset>
 
                   <fieldset class="form__parameters">
                     <legend class="form__title">Выбери дату и время</legend>
-                    <div class="form__column">
+                    <div class="form__column form__column_size_normal">
                       <div class="form__row">
-                        <input type="date" name="data" class="form__input" tabindex="0" placeholder="ДАТА" required>
-                        <input type="time" name="time" class="form__input" tabindex="0" placeholder="ВРЕМЯ" required>
+                        <input
+                               onfocus="this.type='date'"
+                               onblur="this.type='text'"
+                               type="date"
+                               name="data"
+                               class="form__input"
+                               tabindex="0"
+                               placeholder="ДАТА"
+                               required
+                        >
+                        <input
+                               onfocus="this.type='time'"
+                               onblur="this.type='text'"
+                               type="time"
+                               name="time"
+                               class="form__input"
+                               tabindex="0"
+                               placeholder="ВРЕМЯ"
+                               required
+                        >
                       </div>
-                      <input name="amount" type="number" class="form__input" tabindex="0" placeholder="Сколько человек" required>
+                      <input
+                        name="amount"
+                        type="number"
+                        class="form__input"
+                        tabindex="0"
+                        placeholder="Сколько человек"
+                        required
+                      >
                     </div>
-                    <div class="form__column">
+                    <div class="form__column form__column_size_compressed">
                       <label for="firstName" class="form__label-small">Имя</label>
-                      <input type="text" name="firstName" class="form__input" id="firstName" tabindex="0">
+                      <input
+                        type="text"
+                        name="firstName"
+                        class="form__input"
+                        id="firstName"
+                        tabindex="0"
+                      >
                       <label for="secondName" class="form__label-small">Фамилия</label>
-                      <input type="text" name="secondName" class="form__input" id="secondName" tabindex="0" required>
+                      <input
+                        type="text"
+                        name="secondName"
+                        class="form__input"
+                        id="secondName"
+                        tabindex="0"
+                        required
+                      >
                     </div>
-                    <div  class="form__column">
+                    <div  class="form__column form__column_size_normal">
                       <label for="tel" class="form__label-small">Телефон</label>
-                      <input type="tel" name="tel" class="form__input" id="tel" tabindex="0" required>
+                      <input
+                        type="tel"
+                        name="tel"
+                        class="form__input"
+                        id="tel"
+                        tabindex="0"
+                        required
+                      >
                       <label for="email" class="form__label-small">email</label>
-                      <input type="email" name="email" id="email" class="form__input email" tabindex="0">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="form__input email"
+                        tabindex="0"
+                      >
                       <button type="submit" class="form__button-booking" tabindex="0">Забронировать</button>
                     </div>
                   </fieldset>

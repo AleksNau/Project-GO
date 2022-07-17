@@ -83,6 +83,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
@@ -205,9 +206,9 @@
 
 .form__button-booking {
   height: 52px;
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
-  font-family: 'Arial';
+
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -249,22 +250,10 @@
   line-height: 16px;
 }
 
-.form__columns-activity {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 25px;
-  color: #FFFFFF;
-  padding-bottom: 0;
-  padding-top: 0;
-}
 .form__row {
   display: flex;
   gap: 32px;
-  padding-top: 26px;
-  margin-bottom: 26px;
+  padding: 29px 0;
 }
 
 .form__column {
@@ -274,14 +263,11 @@
   padding-bottom: 0;
   padding-top: 0;
 }
-.form__column:nth-child(2) {
-  width: 300px;
-}
 
-.form__column:nth-child(3) {
+.form__column_size_compressed {
   width: 280px;
 }
 
-.form__column:nth-child(4) {
+.form__column_size_normal {
   width: 300px;
 }
