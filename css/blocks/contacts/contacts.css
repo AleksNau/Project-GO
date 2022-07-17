@@ -12,32 +12,26 @@
   justify-content: space-between;
 }
 
-.contacts__paragraph-adress:before {
-  content: url(../contacts/image/location.svg);
-  height: 29px;
-  color:var(--first-color);
+.contacts__paragraph:before {
   position: relative;
-  top: 20px;
-  padding-right: 24px;
-}
-
-.contacts__paragraph-tel-number:before {
-  content: url(../contacts/image/tel.svg);
   height: 29px;
   width: 24px;
   color:var(--first-color);
   padding-right: 24px;
-  position: relative;
+}
+
+.contacts__paragraph-adress:before {
+  content: url(../contacts/image/location.svg);
+  top: 20px;
+}
+
+.contacts__paragraph-tel-number:before {
+  content: url(../contacts/image/tel.svg);
   top: 8px;
 }
 
 .contacts__paragraph-email:before {
   content: url(../contacts/image/mail.svg);
-  height: 29px;
-  width: 24px;
-  color:#CD06FF;
-  padding-right: 24px;
-  position: relative;
   top: 8px;
 }
 
