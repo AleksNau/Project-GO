@@ -10,10 +10,7 @@
 
 .guests__comment {
   padding-top: 52px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+
   color: #FFFFFF;
 }
 
@@ -26,6 +23,11 @@
 }
 
 .guests {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+
   width: 980px;
   margin-left:auto;
   margin-right: auto;
@@ -45,9 +47,7 @@
 
 .guests__name{
   padding-top: 11px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
+
 }
 
 .lastchilddontwork{

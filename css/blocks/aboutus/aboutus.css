@@ -14,13 +14,12 @@
   margin-bottom: 40px;
 }
 
-.aboutus__slogan:last-child{
+.aboutus__slogan:last-child {
   margin-bottom: 0;
 }
 
 .quote__game-cite {
   font-style: normal;
-  font-weight: 400;
   font-size: 44px;
   line-height: 50px;
   text-transform: uppercase;
@@ -31,19 +30,13 @@
 
 .quote__game-cite:before {
   content: "“ ";
-  font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  text-transform: uppercase;
   color: var(--third-color);
 }
 
 .quote__game-cite:after {
   content: "”";
-  font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  text-transform: uppercase;
   color: var(--third-color);
   padding-left: 10px;
 }
@@ -63,7 +56,6 @@
 .quote__picture-title {
   float:right;
   margin-left: 29px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #FFFFFF;
@@ -91,6 +83,7 @@
   height: 206px;
   display: table-cell;
 }
+
 .aboutus__neon {
   background-image: url(../aboutus/image/2nd.jpg);
   background-repeat: no-repeat;
@@ -98,6 +91,7 @@
   height: 206px;
   display: table-cell;
 }
+
 .aboutus__pcgames {
   background-image: url(../aboutus/image/3th.jpg);
   background-repeat: no-repeat;
@@ -105,6 +99,7 @@
   height: 224px;
   display: table-cell;
 }
+
 .aboutus__gba {
   background-image: url(../aboutus/image/4th.jpg);
   background-repeat: no-repeat;
@@ -112,6 +107,7 @@
   height: 224px;
   display: table-cell;
 }
+
 .aboutus__gemepad {
   background-image: url(../aboutus/image/5th.jpg);
   background-repeat: no-repeat;
@@ -119,6 +115,7 @@
   height: 224px;
   display: table-cell;
 }
+
 .aboutus__singer {
   background-image: url(../aboutus/image/6s.jpg);
   background-repeat: no-repeat;
@@ -126,6 +123,7 @@
   height: 166px;
   display: table-cell;
 }
+
 .aboutus__vr {
   background-image: url(../aboutus/image/7th.jpg);
   background-repeat: no-repeat;
@@ -133,18 +131,20 @@
   display: table-cell;
   height: 166px;
 }
+
 .aboutus__left-side{
   display: inline-block;
   width: 600px;
   margin-right: 74px;
   vertical-align: top;
 }
+
 .aboutus__right-side{
   display: inline-block;
   width: 500px;
   vertical-align: top;
-
 }
+
 .aboutus{
   width: 1180px;
 }
