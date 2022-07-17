@@ -67,7 +67,6 @@
 .contacts__link {
   display: inline-block;
   margin-right: 27px;
-
 }
 
 .contacts__link:nth-last-child(1) {
@@ -107,6 +106,7 @@
 .contacts__svg {
   transition-duration: 200ms;
   transition-timing-function: linear;
+
 }
 .contacts__svg:focus {
   fill: #EADEED;
@@ -127,3 +127,8 @@
   background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
+.footer__links {
+  width: 48px;
+  height: 48px;
+  display: block;
+}

@@ -86,3 +86,4 @@ label {
   margin: 0 auto;
   width: 1180px;
 }
+a:active, a:focus { outline: none; }
