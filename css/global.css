@@ -73,6 +73,7 @@ blockquote{
 section {
   padding: 50px 0;
 }
+
 path { fill:inherit; stroke:inherit; }
 
 fieldset {
@@ -85,5 +86,6 @@ label {
 .conteiner {
   margin: 0 auto;
   width: 1180px;
+  padding: 0 30px;
 }
 a:active, a:focus { outline: none; }
