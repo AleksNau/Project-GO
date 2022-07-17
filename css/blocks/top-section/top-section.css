@@ -105,10 +105,6 @@ ul {
   gap: 96px;
 }
 
-.test1 {
-  display: flex;
-}
-
 .top-section__number {
   font-weight: 900;
   font-size: 100px;
@@ -147,9 +143,6 @@ ul {
 
 }
 
-.td-padding {
-  padding-left: 40px;
-}
 .top-section__order {
   width: 374px;
   height: 80px;
@@ -211,11 +204,6 @@ ul {
 
 .top-section__button-down:active {
   background-image: url("../top-section/image/downActive.png");
-}
-
-.header {
-  margin: 0 auto;
-  width: 1180px;
 }
 
 .flex-column {

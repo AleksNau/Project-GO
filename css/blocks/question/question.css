@@ -58,51 +58,6 @@
   background-repeat: no-repeat;
   background-position: 1060px 30px;
 }
-.button-purple {
-  width: 46px;
-  height: 46px;
-  background-image: url("../question/icons/open-purple.svg");
-  background-repeat: no-repeat;
-  border-style: none;
-  background-color: transparent;
-  float: right;
-  transition-duration: 300ms;
-  transition-timing-function: linear;
-}
-.button-purple:hover {
-  background-image: url("../question/icons/openPurple.png");
-  background-repeat: no-repeat;
-  background-color: transparent;
-}
-
-.button-purple:active {
-  background-image: url("../question/icons/closePurple.png");
-  background-repeat: no-repeat;
-  background-color: transparent;
-}
-.button-white {
-  width: 46px;
-  height: 46px;
-  background-image: url("../question/icons/open.png");
-  background-repeat: no-repeat;
-  border-style: none;
-  background-color: transparent;
-  float: right;
-  transition-duration: 300ms;
-  transition-timing-function: linear;
-}
-
-.button-white:hover {
-  background-image: url("../question/icons/openWhite.png");
-  background-repeat: no-repeat;
-  background-color: transparent;
-}
-
-.button-white:active {
-  background-image: url("../question/icons/closeWhite.png");
-  background-repeat: no-repeat;
-  background-color: transparent;
-}
 
 .question {
   width: 1180px;

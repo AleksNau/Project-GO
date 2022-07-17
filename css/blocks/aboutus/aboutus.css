@@ -71,10 +71,6 @@
   white-space: pre-line;
 }
 
-.quote__signature {
-  float: right;
-}
-
 .quote__signature-conteiner {
   overflow:hidden;
   margin-top: 40px;

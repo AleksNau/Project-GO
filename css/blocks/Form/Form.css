@@ -50,35 +50,6 @@
   margin-bottom: 60px;
 }
 
-.form__activity {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  color: #FFFFFF;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-
-
-
-
-.form__column-time {
-  margin-top: 26px;
-  width: 300px;
-  height: 150px;
-  display: flex;
-  row-gap: 36px;
-  column-gap: 32px;
-  flex-wrap: wrap;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 25px;
-  color: #FFFFFF;
-  padding-bottom: 0;
-  padding-top: 0;
-
-}
-
 .form__columns-activity {
   display: flex;
   flex-direction: column;
@@ -114,10 +85,6 @@
   padding-right: 20px;
 }
 
-.amount {
-  width: 300px;
-}
-
 .form__input:focus {
   outline: 2px solid var(--first-color);
 }
@@ -135,36 +102,6 @@
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 40px;
-}
-
-.form__input-info {
-  height: 52px;
-  width: 300px;
-  transition-duration: 300ms;
-  transition-timing-function: linear;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.submit {
-  height: 52px;
-  width: 300px;
-  transition-duration: 200ms;
-  transition-timing-function: linear;
-}
-.submit:focus {
-  background: #FFFFFF;
-  border: 3px solid var(--first-color);
-  border-radius: 10px;
-}
-
-.form__input-info:focus {
-  outline: 2px solid var(--first-color);
-}
-
-.cont {
-  width: 1080px;
-  margin: 0 auto;
 }
 
 .form__radio-button {
@@ -188,16 +125,6 @@
 
 .form__checkbox:focus {
   outline: 1px solid var(--first-color);
-}
-
-.gap {
-  gap: 10px;
-}
-
-.form__date-time {
-  padding-top: 25px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .email {
