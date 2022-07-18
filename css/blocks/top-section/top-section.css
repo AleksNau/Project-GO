@@ -116,7 +116,6 @@ ul {
   text-align: center;
   text-transform: uppercase;
   min-width: 193px;
-  /* identical to box height */
 
   color: var(--first-color);
 }
@@ -137,7 +136,6 @@ ul {
   font-variant: small-caps;
   color:var(--first-color);
   min-width: 166px;
-  horiz-align: center;
   text-align: center;
 }
 
