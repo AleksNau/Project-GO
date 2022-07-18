@@ -1,10 +1,9 @@
 
-.contacts {
+.footer__contacts {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  text-transform: uppercase;
   color: #ffffff;
 
   padding-bottom: 156px;
@@ -12,7 +11,7 @@
   justify-content: space-between;
 }
 
-.contacts__paragraph:before {
+.footer__contact:before {
   position: relative;
   height: 29px;
   width: 24px;
@@ -20,22 +19,22 @@
   padding-right: 24px;
 }
 
-.contacts__paragraph-adress:before {
+.footer__contact_type_adress:before {
   content: url(../contacts/image/location.svg);
   top: 20px;
 }
 
-.contacts__paragraph-tel-number:before {
+.footer__contact_type_tel:before {
   content: url(../contacts/image/tel.svg);
   top: 8px;
 }
 
-.contacts__paragraph-email:before {
+.footer__contact_type_email:before {
   content: url(../contacts/image/mail.svg);
   top: 8px;
 }
 
-.contacts__paragraph {
+.footer__contact {
   font-style: normal;
   text-transform: none;
   letter-spacing: 2px;
@@ -43,30 +42,30 @@
 
 }
 
-.contacts__paragraph-adress {
+.footer__contact_type_adress {
   white-space: pre-line;
   padding-left: 60px;
   text-indent:-60px;
   margin-bottom: 35px;
 }
 
-.contacts__links {
+.footer__links {
   list-style-type: none;
   padding: 0;
   margin: 0;
   margin-top: 40px;
 }
 
-.contacts__link {
+.footer__link {
   display: inline-block;
   margin-right: 27px;
 }
 
-.contacts__link:nth-last-child(1) {
+.footer__link:last-child {
   margin-right: 0;
 }
 
-.contacts__paragraph-tel-number {
+.footer__contact_type_tel {
   white-space: break-spaces;
   margin-bottom: 14px;
 }
@@ -96,23 +95,24 @@
   margin-bottom: 0;
 }
 
-.contacts__svg {
+.footer__svg {
   transition-duration: 200ms;
   transition-timing-function: linear;
+
 }
 
-.contacts__svg:focus {
+.footer__svg:focus {
   fill: #EADEED;
   outline: 1px solid var(--first-color);
   transition-duration: 300ms;
   transition-timing-function: linear;
 }
 
-.contacts__svg:hover {
+.footer__svg:hover {
   fill: #EADEED;
 }
 
-.contacts__svg:active {
+.footer__svg:active {
   fill: var(--first-color);
 }
 
@@ -120,7 +120,7 @@
   background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
 
-.footer__links {
+.footer__link_icon {
   width: 48px;
   height: 48px;
   display: block;
