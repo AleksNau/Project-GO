@@ -1,52 +1,55 @@
-
+.footer {
+  padding-top: 50px;
+  font-style: normal;
+}
 .footer__contacts {
+  font-family: Arial;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
-
-  padding-bottom: 156px;
+  margin-bottom: 156px;
   display: flex;
   justify-content: space-between;
 }
 
 .footer__contact:before {
-  position: relative;
-  height: 29px;
-  width: 24px;
+  content: "";
+  width: 34px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   color:var(--first-color);
-  padding-right: 24px;
 }
 
 .footer__contact_type_adress:before {
-  content: url(../contacts/image/location.svg);
-  top: 20px;
+  background-image: url(../contacts/image/location.svg);
+
 }
 
 .footer__contact_type_tel:before {
-  content: url(../contacts/image/tel.svg);
-  top: 8px;
+  background-image: url(../contacts/image/tel.svg);
+
 }
 
 .footer__contact_type_email:before {
-  content: url(../contacts/image/mail.svg);
-  top: 8px;
+  background-image: url(../contacts/image/mail.svg);
 }
 
 .footer__contact {
   font-style: normal;
-  text-transform: none;
-  letter-spacing: 2px;
-  cursor: pointer;
+  position: relative;
+  max-width: 300px;
+  padding-left: 60px;
 
 }
 
 .footer__contact_type_adress {
-  white-space: pre-line;
-  padding-left: 60px;
-  text-indent:-60px;
-  margin-bottom: 35px;
+  margin-bottom: 38px;
 }
 
 .footer__links {
@@ -66,8 +69,7 @@
 }
 
 .footer__contact_type_tel {
-  white-space: break-spaces;
-  margin-bottom: 14px;
+margin-bottom: 13px;
 }
 
 .small__text {
