@@ -50,10 +50,12 @@
   margin-bottom: 60px;
 }
 
-.form__columns-activity {
+.form__column {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  align-items: flex-start;
+  gap: 14px;
+  overflow: hidden;
 
   font-weight: 400;
   font-size: 22px;
@@ -65,9 +67,12 @@
 
 .form__parameters {
   display: flex;
-  justify-content: space-around;
   padding: 0;
   margin-bottom: 60px;
+}
+.form__parameters_type_date {
+  justify-content: center;
+  gap: 50px;
 }
 
 .form__parameters:last-child {
@@ -75,14 +80,24 @@
 }
 
 .form__input {
+  max-height: 49px;
+  flex-shrink: 1;
+  min-width: 134px;
   width: 100%;
-  overflow: hidden;
-  height: 52px;
-  background: #FFFFFF;
+  padding: 12px 20px;
+
+  font-weight: 400;
+  font-size: 22px;
+  line-height: calc(25 / 22);
+  color: #211E1E;
+
+  background-color: #fff;
   transition-duration: 300ms;
   transition-timing-function: linear;
-  padding-left: 20px;
-  padding-right: 20px;
+}
+
+.form__input::placeholder {
+  color: #211E1E;
 }
 
 .form__input:focus {
@@ -127,16 +142,13 @@
   outline: 1px solid var(--first-color);
 }
 
-.email {
-  margin-bottom: 40px;
-}
 
 .form__button-booking {
   height: 52px;
   width: 100%;
   border-radius: 10px;
+  margin-top: 26px;
 
-  font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
@@ -183,13 +195,6 @@
   padding: 29px 0;
 }
 
-.form__column {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-bottom: 0;
-  padding-top: 0;
-}
 
 .form__column_size_compressed {
   width: 280px;
@@ -197,4 +202,18 @@
 
 .form__column_size_normal {
   width: 300px;
+}
+
+.form__options {
+  display: flex;
+  margin-bottom: 67px;
+}
+
+.form__options:last-of-type {
+  margin-bottom: 0;
+}
+
+.form__options_type_kits {
+  justify-content: end;
+  gap: 100px;
 }

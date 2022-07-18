@@ -126,6 +126,7 @@ ul {
   line-height: 34px;
   min-width: 163px;
   text-align: center;
+  horiz-align: center;
   color: #FFFFFF;
   white-space: pre-line;
 }
@@ -137,6 +138,7 @@ ul {
   font-variant: small-caps;
   color:var(--first-color);
   min-width: 166px;
+  horiz-align: center;
   text-align: center;
   display: flex;
   align-items: flex-end;
@@ -211,4 +213,5 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  horiz-align: center;
 }
