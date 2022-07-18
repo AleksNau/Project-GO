@@ -82,7 +82,7 @@
 .form__input {
   max-height: 49px;
   flex-shrink: 1;
-  min-width: 134px;
+  min-width: 133px;
   width: 100%;
   padding: 12px 20px;
 
@@ -102,6 +102,10 @@
 
 .form__input:focus {
   outline: 2px solid var(--first-color);
+}
+
+.form__input-date {
+  width: 134px;
 }
 
 .form {
