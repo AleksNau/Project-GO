@@ -138,10 +138,8 @@ ul {
   font-variant: small-caps;
   color:var(--first-color);
   min-width: 166px;
-  horiz-align: center;
   text-align: center;
-  display: flex;
-  align-items: flex-end;
+
 
 }
 
