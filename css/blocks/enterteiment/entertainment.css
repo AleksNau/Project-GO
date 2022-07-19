@@ -3,7 +3,7 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px 20px;
   justify-content: center;
 }
 
@@ -43,6 +43,10 @@
 
 .entertainment-list__item:nth-child(6) {
   background-image: url(../enterteiment/image/sony.jpg);
+}
+
+.entertainment-list__item:nth-child(3n+2){
+  transform: translateY(70px);
 }
 
 .entertainment-list__title {
