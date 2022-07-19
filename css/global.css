@@ -94,3 +94,4 @@ label {
 }
 
 a:active, a:focus { outline: none; }
+label:active, label:focus { outline: none; }
