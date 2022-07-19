@@ -26,7 +26,6 @@
   border-radius: 8px;
 }
 
-
 .form__label-radio:focus {
   background: #FFFFFF;
   border: 3px solid var(--second-color);
