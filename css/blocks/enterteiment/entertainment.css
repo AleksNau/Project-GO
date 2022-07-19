@@ -40,7 +40,6 @@
 }
 
 .entertainment-list__item:nth-child(3n+2){
-  transform-origin: center center;
   transform: translateY(70px);
 }
 
