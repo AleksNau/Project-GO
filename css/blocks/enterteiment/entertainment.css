@@ -12,6 +12,7 @@
   width: 380px;
   height: 228px;
   transition-duration: 300ms;
+  cursor: pointer;
 
 }
 
@@ -46,13 +47,12 @@
 .entertainment-list__item:hover {
   transition-timing-function: linear;
   transform: scale(1.1);
-  cursor: pointer;
 }
 
 .entertainment-list__item:nth-child(3n+2):hover {
   transition-timing-function: linear;
   transform:translateY(70px) scale(1.1);
-  cursor: pointer;
+
 }
 
 .entertainment-list__title {
