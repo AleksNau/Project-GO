@@ -14,13 +14,6 @@
 
 }
 
-.entertainment-list__item:hover {
-  transition-duration: 300ms;
-  transition-timing-function: linear;
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
 .entertainment-list__item:nth-child(1) {
   background-image: url(../enterteiment/image/vr.jpg);
 }
@@ -47,6 +40,13 @@
 
 .entertainment-list__item:nth-child(3n+2){
   transform: translateY(70px);
+}
+
+.entertainment-list__item:hover {
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .entertainment-list__title {
