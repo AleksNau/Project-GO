@@ -24,6 +24,7 @@
   top: 50%;
   transform: translateY(-50%);
   color:var(--first-color);
+  background-size: 3.4rem auto;
 }
 
 .footer__contact_type_adress:before {
@@ -100,6 +101,8 @@ margin-bottom: 1.3rem;
 .footer__svg {
   transition-duration: 200ms;
   transition-timing-function: linear;
+  width:4.8rem;
+  height: auto;
 
 }
 
@@ -126,4 +129,9 @@ margin-bottom: 1.3rem;
   width: 4.8rem;
   height: 4.8rem;
   display: block;
+}
+
+.footer__map{
+width: 68rem;
+height: auto;
 }

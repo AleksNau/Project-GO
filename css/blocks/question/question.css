@@ -21,6 +21,7 @@
   background-color: #FFFFFF;
   background-image: url("../question/icons/open-purple.svg");
   background-repeat: no-repeat;
+  background-size: 4.6rem auto;
   background-position: 106rem 3rem;
   transition-duration: 300ms;
 }
@@ -30,6 +31,7 @@
   color: white;
   background-image: url("../question/icons/open.png");
   background-repeat: no-repeat;
+  background-size: 4.6rem auto;
   background-position: 106rem 3rem;
   transition-duration: 200ms;
 }
