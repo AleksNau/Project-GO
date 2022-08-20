@@ -3,6 +3,27 @@ html {
   box-sizing: border-box;
   font-size: calc(10 * 100vw / 1920);
 }
+@media (max-width: 1024px){
+  html {
+    position: relative;
+    box-sizing: border-box;
+    font-size: calc(10 * 100vw / 1024);
+  }
+}
+@media (max-width: 768px){
+  html {
+    position: relative;
+    box-sizing: border-box;
+    font-size: calc(10 * 100vw / 768);
+  }
+}
+@media (max-width: 320px){
+  html {
+    position: relative;
+    box-sizing: border-box;
+    font-size: calc(10 * 100vw / 320);
+  }
+}
 
 *,
 *::before,
