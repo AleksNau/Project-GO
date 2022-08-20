@@ -3,17 +3,17 @@
 .form__label-radio {
   display: inline-block;
   cursor: pointer;
-  font-size: 30px;
-  line-height: 50px;
+  font-size: 3rem;
+  line-height: 5rem;
   font-weight: 700;
   border: 1px solid #999;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   user-select: none;
   color: #000000;
-  padding: 0px 15px;
+  padding: 0px 1.5rem;
   background: #FFFFFF;
-  width: 250px;
-  height: 55px;
+  width: 25rem;
+  height: 5.5rem;
   text-align: center;
   text-transform: uppercase;
   transition-duration: 300ms;
@@ -22,43 +22,43 @@
 
 .form__button:checked+.form__label-radio {
   background-color: var(--third-color);
-  border: 3px solid #FFFFFF;
-  border-radius: 8px;
+  border: 0.3rem solid #FFFFFF;
+  border-radius: 0.8rem;
 }
 
 .form__label-radio:focus {
   background: #FFFFFF;
-  border: 3px solid var(--second-color);
-  border-radius: 8px;
+  border: 0.3rem solid var(--second-color);
+  border-radius: 0.8rem;
 }
 
 .form__label-radio:hover {
   background-color: #EADEED;
-  border: 3px solid var(--second-color);
-  border-radius: 8px;
+  border: 0.3rem solid var(--second-color);
+  border-radius: 0.8rem;
 }
 .form__label-radio:active {
   background-color: var(--third-color);
-  border: 3px solid #FFFFFF;
-  border-radius: 8px;
+  border: 0.3rem solid #FFFFFF;
+  border-radius: 0.8rem;
 }
 
 .chooseRoom {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 
 .form__column {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 14px;
+  gap: 1.4rem;
 
   font-weight: 400;
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
   color: #FFFFFF;
   padding-bottom: 0;
   padding-top: 0;
@@ -67,11 +67,11 @@
 .form__parameters {
   display: flex;
   padding: 0;
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 .form__parameters_type_date {
   justify-content: center;
-  gap: 50px;
+  gap: 5rem;
 }
 
 .form__parameters:last-child {
@@ -79,14 +79,14 @@
 }
 
 .form__input {
-  max-height: 49px;
+  max-height: 4.9rem;
   flex-shrink: 1;
-  min-width: 133px;
+  min-width: 13.3rem;
   width: 100%;
-  padding: 12px 20px;
+  padding: 1.2rem 2rem;
 
   font-weight: 400;
-  font-size: 22px;
+  font-size: 2.2rem;
   line-height: calc(25 / 22);
   color: #211E1E;
 
@@ -104,7 +104,7 @@
 }
 
 .form__input-date {
-  width: 134px;
+  width: 13.4rem;
 }
 
 .form {
@@ -115,27 +115,27 @@
 .form__title {
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .form__radio-button {
-  height: 27px;
-  width: 27px;
+  height: 2.7rem;
+  width: 2.7rem;
   vertical-align: text-bottom;
-  margin-right: 5px;
+  margin-right: 0.5rem;
 
 }
 .form__radio-button:focus {
   outline: 1px solid var(--first-color);
 }
 .form__checkbox {
-  height: 25px;
-  width: 25px;
-  margin-right: 5px;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: 0.5rem;
   vertical-align: bottom;
   transition-duration: 300ms;
   transition-timing-function: linear;
@@ -147,14 +147,14 @@
 
 
 .form__button-booking {
-  height: 52px;
+  height: 5.2rem;
   width: 100%;
-  border-radius: 10px;
-  margin-top: 26px;
+  border-radius: 1rem;
+  margin-top: 2.6rem;
 
   font-weight: 700;
-  font-size: 22px;
-  line-height: 28px;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
   text-transform: uppercase;
   color: var(--third-color);
   border-style: none;
@@ -163,53 +163,53 @@
 }
 .form__button-booking:hover {
   background-color: #EADEED;
-  border: 3px solid var(--second-color);
-  border-radius: 10px;
+  border: 0.3rem solid var(--second-color);
+  border-radius: 1rem;
 }
 
 .form__button-booking:focus {
   background: #FFFFFF;
-  border: 3px solid var(--third-color);
-  border-radius: 10px;
+  border: 0.3rem solid var(--third-color);
+  border-radius: 1rem;
 }
 
 .form__button-booking:active {
   background-color: #EADEED;;
-  border: 3px solid #FFFFFF;
-  border-radius: 10px;
+  border: 0.3rem solid #FFFFFF;
+  border-radius: 1rem;
 }
 
 .form__subtitle {
-  margin-bottom: 23px;
+  margin-bottom: 2.3rem;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
 }
 
 .form__label-small {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
 }
 
 .form__row {
   display: flex;
-  gap: 32px;
-  padding: 29px 0;
+  gap: 3.2rem;
+  padding: 2.9rem 0;
 }
 
 
 .form__column_size_compressed {
-  width: 280px;
+  width: 28rem;
 }
 
 .form__column_size_normal {
-  width: 300px;
+  width: 30rem;
 }
 
 .form__options {
   display: flex;
-  margin-bottom: 67px;
+  margin-bottom: 6.7rem;
 }
 
 .form__options:last-of-type {
@@ -218,5 +218,5 @@
 
 .form__options_type_kits {
   justify-content: end;
-  gap: 100px;
+  gap: 10rem;
 }

@@ -6,8 +6,8 @@
 
 .rooms__item_vibes {
   background-image: url(../rooms/image/80s.jpg);
-  margin-right: 15px;
-  margin-bottom: 18px;
+  margin-right: 1.5rem;
+  margin-bottom: 1.8rem;
 }
 
 .rooms__item_starwars {
@@ -16,23 +16,23 @@
 
 .rooms__item_wildwest {
   background-image: url(../rooms/image/wildwest.jpg);
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
 }
 
 .rooms__item_neonstyle {
   background-image: url(../rooms/image/neon.jpg);
-  margin-left: 15px;
+  margin-left: 1.5rem;
 
 }
 
 .rooms__item {
   background-size: contain;
   background-repeat: no-repeat;
-  width: 580px;
-  height: 349px;
+  width: 58rem;
+  height: 34.9rem;
   text-align: center;
-  padding-top: 135px;
-  font-size: 70px;
+  padding-top: 13.5rem;
+  font-size: 7rem;
   font-weight: 700;
   color: #FFFFFF;
   line-height: 80px;
@@ -43,10 +43,10 @@
 .section-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 4rem;
+  line-height: 5rem;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   white-space: pre-line;
 }

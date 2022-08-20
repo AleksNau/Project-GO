@@ -1,18 +1,18 @@
 .aboutus {
-  padding-top: 100px;
+  padding-top: 10rem;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 2.8rem;
   margin: 0 auto;
 }
 
 .aboutus__slogan {
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin-bottom: 40px;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 4rem;
 }
 
 .aboutus__slogan:last-child {
@@ -21,12 +21,12 @@
 
 .quote__game-cite {
   font-style: normal;
-  font-size: 44px;
+  font-size: 4.4rem;
   line-height: 50px;
   text-transform: uppercase;
   white-space: pre-line;
-  padding-left: 36px;
-  text-indent:-36px;
+  padding-left: 3.6rem;
+  text-indent:-3.6rem;
 }
 
 .quote__game-cite:before {
@@ -39,26 +39,26 @@
   content: "”";
   font-weight: 900;
   color: var(--third-color);
-  padding-left: 10px;
+  padding-left: 1rem;
 }
 
 .quote__picture {
   background-image: url(../aboutus/image/Arkadiy.jpg);
   background-repeat: no-repeat;
   float:left;
-  width: 80px;
-  height: 80px;
-  max-height: 96px;
-  background-size: 80px auto;
+  width: 8rem;
+  height: 8rem;
+  max-height: 9.6rem;
+  background-size: 8rem auto;
   overflow: hidden;
   border-radius: 50%;
 }
 
 .quote__picture-title {
   float:right;
-  margin-left: 29px;
-  font-size: 20px;
-  line-height: 28px;
+  margin-left: 2.9rem;
+  font-size: 2rem;
+  line-height: 2.8rem;
   color: #FFFFFF;
   text-transform: none;
   white-space: pre-line;
@@ -66,87 +66,87 @@
 
 .quote__signature-conteiner {
   overflow:hidden;
-  margin-top: 40px;
+  margin-top: 4rem;
   float: right;
 
 }
 
 .quote {
   padding: 0;
-  margin-top: 59px;
+  margin-top: 5.9rem;
 }
 
 
 .aboutus__oculus {
   background-image: url(../aboutus/image/1st.jpg);
   background-repeat: no-repeat;
-  width: 300px;
-  height: 206px;
+  width: 30rem;
+  height: 20.6rem;
   display: table-cell;
 }
 
 .aboutus__neon {
   background-image: url(../aboutus/image/2nd.jpg);
   background-repeat: no-repeat;
-  width: 300px;
-  height: 206px;
+  width: 30rem;
+  height: 20.6rem;
   display: table-cell;
 }
 
 .aboutus__pcgames {
   background-image: url(../aboutus/image/3th.jpg);
   background-repeat: no-repeat;
-  width: 164px;
-  height: 224px;
+  width: 16.4rem;
+  height: 22.4rem;
   display: table-cell;
 }
 
 .aboutus__gba {
   background-image: url(../aboutus/image/4th.jpg);
   background-repeat: no-repeat;
-  width: 180px;
-  height: 224px;
+  width: 18rem;
+  height: 22.4rem;
   display: table-cell;
 }
 
 .aboutus__gemepad {
   background-image: url(../aboutus/image/5th.jpg);
   background-repeat: no-repeat;
-  width: 256px;
-  height: 224px;
+  width: 25.6rem;
+  height: 22.4rem;
   display: table-cell;
 }
 
 .aboutus__singer {
   background-image: url(../aboutus/image/6s.jpg);
   background-repeat: no-repeat;
-  width: 380px;
-  height: 166px;
+  width: 38rem;
+  height: 16.6rem;
   display: table-cell;
 }
 
 .aboutus__vr {
   background-image: url(../aboutus/image/7th.jpg);
   background-repeat: no-repeat;
-  width: 220px;
+  width: 22rem;
   display: table-cell;
-  height: 166px;
+  height: 16.6rem;
 }
 
 .aboutus__left-side{
   display: inline-block;
-  width: 600px;
-  margin-right: 74px;
+  width: 60rem;
+  margin-right: 7.4rem;
   vertical-align: top;
 }
 
 .aboutus__right-side{
   display: inline-block;
-  width: 500px;
+  width: 50rem;
   vertical-align: top;
 }
 
 .aboutus{
-  width: 1180px;
+  width: 118rem;
 }
 

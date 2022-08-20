@@ -3,14 +3,14 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px 20px;
+  gap: 4rem 2rem;
   justify-content: center;
 }
 
 .entertainment-list__item {
   background-repeat: no-repeat;
-  width: 380px;
-  height: 228px;
+  width: 38rem;
+  height: 22.8rem;
   transition-duration: 300ms;
   cursor: pointer;
 
@@ -41,7 +41,7 @@
 }
 
 .entertainment-list__item:nth-child(3n+2){
-  transform: translateY(70px);
+  transform: translateY(7rem);
 }
 
 .entertainment-list__item:hover {
@@ -51,15 +51,15 @@
 
 .entertainment-list__item:nth-child(3n+2):hover {
   transition-timing-function: linear;
-  transform:translateY(70px) scale(1.1);
+  transform:translateY(7rem) scale(1.1);
 
 }
 
 .entertainment-list__title {
   position: relative;
-  top: 166px;
-  left: 40px;
+  top: 16.6rem;
+  left: 4rem;
   white-space: pre-line;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
 }

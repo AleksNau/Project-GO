@@ -1,6 +1,7 @@
 html {
   position: relative;
   box-sizing: border-box;
+  font-size: calc(10 * 100vw / 1920);
 }
 
 *,
@@ -66,12 +67,12 @@ blockquote{
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 144rem;
   margin: 0 auto;
 }
 
 section {
-  padding: 50px 0;
+  padding: 5rem 0;
 }
 
 path { fill:inherit; stroke:inherit; }
@@ -85,12 +86,12 @@ label {
 }
 .conteiner {
   margin: 0 auto;
-  width: 1240px;
+  width: 124rem;
   padding: 0 30px;
 }
 
 .section {
-  padding: 50px 0;
+  padding: 5rem 0;
 }
 
 a:active, a:focus { outline: none; }

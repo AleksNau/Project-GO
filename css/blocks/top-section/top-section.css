@@ -1,8 +1,8 @@
 
 .top-section {
   margin: 0 auto;
-  width: 1180px;
-  height: 930px;
+  width: 118rem;
+  height: 93rem;
   position: relative;
   font-family: 'Arial';
   font-weight: 400;
@@ -12,7 +12,7 @@
 .top-section__title {
   font-style: normal;
   font-weight: 900;
-  font-size: 150px;
+  font-size: 15rem;
   line-height: 100%;
   letter-spacing: -0.1em;
   color: #FFFFFF;
@@ -22,10 +22,10 @@
 }
 .top-section__title:before {
   content: "";
-  width: 675px;
-  height: 762px;
-  top: 117px;
-  left: 505px;
+  width: 67.5rem;
+  height: 76.2rem;
+  top: 11.7rem;
+  left: 50.5rem;
   position: absolute;
   background-image: url("../top-section/image/main.png");
   background-repeat: no-repeat;
@@ -34,16 +34,16 @@
 
 .top-section__subtitle {
   display: inline-block;
-  font-size: 28px;
-  line-height: 50px;
+  font-size: 2.8rem;
+  line-height: 5rem;
   color: #FFFFFF;
   margin-top: 0;
-  padding-left: 100px;
+  padding-left: 10rem;
 }
 
 .menu {
   display: flex;
-  gap: 40px;
+  gap: 4rem;
   list-style-type: none;
   line-height: 300%;
 }
@@ -52,9 +52,9 @@
 }
 .menu__item {
   display: inline-block;
-  height: 50px;
-  font-size: 22px;
-  line-height: 50px;
+  height: 5rem;
+  font-size: 2.2rem;
+  line-height: 5rem;
   text-transform: uppercase;
   color: #FFFFFF;
   flex: none;
@@ -68,11 +68,11 @@ ul {
 }
 
 .menu-button {
-  width: 280px;
-  height: 55px;
+  width: 28rem;
+  height: 5.5rem;
 
   line-height: 220%;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 700;
   letter-spacing: 0em;
   text-align: center;
@@ -82,7 +82,7 @@ ul {
   text-transform: uppercase;
   color: #FFFFFF;
 
-  border-radius: 10px;
+  border-radius: 1rem;
   border: solid 3px;
   border-color: var(--first-color);
   background-color: #1B1A1B;
@@ -102,28 +102,28 @@ ul {
 
 .menu-button:active {
   background: #640AA3;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 .conteiner-row {
   display: flex;
-  gap: 96px;
+  gap: 9.6rem;
 }
 
 .top-section__number {
   font-weight: 900;
-  font-size: 100px;
-  line-height: 141px;
+  font-size: 10rem;
+  line-height: 14.1rem;
   text-align: center;
   text-transform: uppercase;
-  min-width: 193px;
+  min-width: 19.3rem;
 
   color: var(--first-color);
 }
 
 .top-section__description {
-  font-size: 30px;
-  line-height: 34px;
-  min-width: 163px;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  min-width: 16.3rem;
   text-align: center;
   color: #FFFFFF;
   white-space: pre-line;
@@ -131,23 +131,23 @@ ul {
 
 .top-section__new {
   font-weight: 900;
-  font-size: 75px;
-  line-height: 106px;
+  font-size: 7.5rem;
+  line-height: 10.6rem;
   font-variant: small-caps;
   color:var(--first-color);
-  min-width: 166px;
+  min-width: 16.6rem;
   text-align: center;
 }
 
 .top-section__order {
-  width: 374px;
-  height: 80px;
+  width: 37.4rem;
+  height: 8rem;
 
-  border-radius: 10px;
+  border-radius: 1rem;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 30px;
+  line-height: 3rem;
   text-transform: uppercase;
   color: #FFFFFF;
 
@@ -169,19 +169,19 @@ ul {
 }
 
 .table {
-  width: 400px;
+  width: 40rem;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 10rem;
 }
 
 
 .top-section__button-down {
   position: absolute;
-  right: 544px;
-  bottom: 140px;
-  width: 97px;
-  height: 97px;
+  right: 54.4rem;
+  bottom: 14rem;
+  width: 9.7rem;
+  height: 9.7rem;
   background-image: url("../top-section/image/down.png");
   background-repeat: no-repeat;
   border-style: none;
