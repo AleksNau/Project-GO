@@ -52,38 +52,40 @@
 }
 
 @media (max-width: 1024px){
-  
+  .rooms__item {
+    width: 44.3rem;
+    height: 26.7rem;
+    padding-top: 9.5rem;
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
   .rooms__item_vibes {
-    margin-right: 1.5rem;
-    margin-bottom: 1.8rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
   }
   
   .rooms__item_wildwest {
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
   }
   
   .rooms__item_neonstyle {
-    margin-left: 1.5rem;
-  }
-  
-  .rooms__item {
-    width: 58rem;
-    height: 34.9rem;
-    padding-top: 13.5rem;
-    font-size: 7rem;
-    line-height: 8rem;
-  }
-  
-  .section-title {
-    font-size: 4rem;
-    line-height: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 2rem;
   }
 }
+
 @media (max-width: 768px){
+  .rooms__item {
+    width: 33.5rem;
+    height: 20rem;
+    padding-top: 7.5rem;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
   .rooms__item_vibes {
-    margin-right: 1.5rem;
-    margin-bottom: 1.8rem;
+    margin-right: 2rem;
+    margin-bottom: 1.7rem;
   }
   
   .rooms__item_wildwest {
@@ -91,49 +93,35 @@
   }
   
   .rooms__item_neonstyle {
-    margin-left: 1.5rem;
-  }
-  
-  .rooms__item {
-    width: 58rem;
-    height: 34.9rem;
-    padding-top: 13.5rem;
-    font-size: 7rem;
-    line-height: 8rem;
-  }
-  
-  .section-title {
-    font-size: 4rem;
-    line-height: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 2rem;
   }
 }
+
 @media (max-width: 320px){
+  .rooms__item {
+    width: 28rem;
+    height: 16.8rem;
+    padding-top: 5rem;
+    font-size: 2.6rem;
+    line-height: 3.4rem;
+  }
+
+  .rooms {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
   .rooms__item_vibes {
-    margin-right: 1.5rem;
-    margin-bottom: 1.8rem;
+    margin-right: 0;
+    margin-bottom: 0;
   }
   
   .rooms__item_wildwest {
-    margin-bottom: 6rem;
+    margin-bottom: 0;
   }
   
   .rooms__item_neonstyle {
-    margin-left: 1.5rem;
-  }
-  
-  .rooms__item {
-    width: 58rem;
-    height: 34.9rem;
-    padding-top: 13.5rem;
-    font-size: 7rem;
-    line-height: 8rem;
-  }
-  
-  .section-title {
-    font-size: 4rem;
-    line-height: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 0;
   }
 }
 
