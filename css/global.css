@@ -71,9 +71,7 @@ blockquote{
   margin: 0 auto;
 }
 
-section {
-  padding: 5rem 0;
-}
+
 
 path { fill:inherit; stroke:inherit; }
 
@@ -87,7 +85,7 @@ label {
 .conteiner {
   margin: 0 auto;
   width: 124rem;
-  padding: 0 30px;
+  padding: 0 3rem;
 }
 
 .section {
