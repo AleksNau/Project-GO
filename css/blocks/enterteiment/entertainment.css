@@ -67,81 +67,74 @@
 
 @media (max-width: 1024px){
   .entertainment-list {
-    gap: 4rem 2rem;
+    gap: 3rem 2.2rem;
   }
   
   .entertainment-list__item {
-    background-size: 38rem auto;
-    width: 38rem;
-    height: 22.8rem;  
+    background-size: 28.7rem auto;
+    width: 28.7rem;
+    height: 17.2rem;  
   }
 
   .entertainment-list__item:nth-child(3n+2){
-    transform: translateY(7rem);
+    transform: translateY(5.3rem);
   }
   
   .entertainment-list__item:nth-child(3n+2):hover {
-    transform:translateY(7rem) scale(1.1);
+    transform:translateY(5.3rem) scale(1.1);
   
   }
   
   .entertainment-list__title {
-    top: 16.6rem;
-    left: 4rem;
+    top: 11.4rem;
+    left: 2rem;
     font-size: 2rem;
   }
 }
 @media (max-width: 768px){
   .entertainment-list {
-    gap: 4rem 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
   }
   
   .entertainment-list__item {
-    background-size: 38rem auto;
-    width: 38rem;
-    height: 22.8rem;  
+    background-size: 33.4rem auto;
+    width: 33.4rem;
+    height: 20rem;  
   }
 
   .entertainment-list__item:nth-child(3n+2){
-    transform: translateY(7rem);
+    transform: translateY(0);
   }
   
   .entertainment-list__item:nth-child(3n+2):hover {
-    transform:translateY(7rem) scale(1.1);
+    transform:translateY(0) scale(1.1);
   
   }
   
   .entertainment-list__title {
-    top: 16.6rem;
-    left: 4rem;
+    top: 13.2rem;
+    left: 3rem;
     font-size: 2rem;
   }
 
 }
 @media (max-width: 320px){
   .entertainment-list {
-    gap: 4rem 2rem;
+    gap: 1rem;
   }
   
   .entertainment-list__item {
-    background-size: 38rem auto;
-    width: 38rem;
-    height: 22.8rem;  
+    background-size: 13.5rem auto;
+    width: 13.5rem;
+    height: 7.5rem;  
   }
 
-  .entertainment-list__item:nth-child(3n+2){
-    transform: translateY(7rem);
-  }
-  
-  .entertainment-list__item:nth-child(3n+2):hover {
-    transform:translateY(7rem) scale(1.1);
-  
-  }
   
   .entertainment-list__title {
-    top: 16.6rem;
-    left: 4rem;
-    font-size: 2rem;
+    top: 4rem;
+    left: 1rem;
+    font-size: 1rem;
   }
 }
 
