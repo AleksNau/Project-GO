@@ -214,111 +214,252 @@ ul {
   flex-direction: column;
   justify-content: flex-end;
 }
+
 @media (max-width: 1024px){
-  .conteiner-row {
-  }
-  .logo {
-  }
   .menu {
+    gap: 2rem;
   }
+
+  .logo {
+    width: 8.7rem;
+  }
+
   .menu__item {
+    height: 5rem;
+    font-size:1.8rem;
+    line-height: 5rem;    
   }
+  
   .menu-button {
+    width: 22.9rem;
+    height: 4.5rem;
+  
+    font-size: 1.8rem;
+  
+    border-radius: 1rem;
+    border: solid 0.3rem;
   }
 
+  .conteiner-row {
+    gap: 7.9rem;
+  }
 
-  .top-section {
-  }
-  .section {
-  }
-  .top-section__title {
-  }
-  .top-section__subtitle {
-  }
-  .table {
-  }
-  .flex-column {
-  }
-  .top-section__number {
-  }
-  .top-section__description {
-  }
-  .top-section__new {
-  }
-  .top-section__order {
-  }
-  .top-section__button-down {
-  }
+.top-section {
+  width: 90.4rem;
+  height: 58.3rem;
+}
+
+.top-section__title {
+  font-size: 12rem;
+}
+
+.top-section__title:before {
+  width: 45.3rem;
+  height: 52rem;
+  top: 11.7rem;
+  left: 45.5rem;
+  background-size: 45.3rem auto;
+}
+
+.top-section__subtitle {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  padding-left: 10rem;
+}
+.top-section__number {
+  font-size: 8rem;
+  line-height: 11.3rem;
+  min-width: 16.8rem;
+}
+
+.top-section__description {
+  font-size: 2.6rem;
+  line-height: 3rem;
+  min-width: 16.8rem;
+}
+
+.top-section__new {
+  font-size: 6rem;
+  line-height: 8.5rem; 
+  min-width: 13.3rem;
+}
+
+.top-section__order {
+  width: 29.6rem;
+  height: 6.4rem;
+
+  border-radius: 1rem;
+  font-size: 2.2rem;
+  line-height: 3rem;
+
+}
+
+.table {
+  width: 35rem;
+  margin-bottom: 8rem;
+}
+
+.top-section__button-down {
+  right: 41.9rem;
+  bottom: 4.6rem;
+  width: 9.7rem;
+  height: 9.7rem;
+
+  background-size: 9.7rem auto;
+}
+
 }
 @media (max-width: 768px){
-  .conteiner-row {
-  }
-  .logo {
-  }
   .menu {
+    display: none;
   }
-  .menu__item {
+
+  .logo {
+    width: 8.7rem;
   }
+  
   .menu-button {
+    border-radius: 0.8rem;
+  }
+
+  .conteiner-row {
+    gap: 15.9rem;
   }
 
 
   .top-section {
+    width: 68.8 rem;
+    height: 53.7rem;
   }
-  .section {
-  }
+  
   .top-section__title {
+    font-size: 8.6rem;
   }
+  
+  .top-section__title:before {
+    width: 40.9rem;
+    height: 47.9rem;
+    top: 9rem;
+    left: 27.6rem;
+    background-size: 40.9rem auto;
+  }
+  
   .top-section__subtitle {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    padding-left: 10rem;
   }
-  .table {
-  }
-  .flex-column {
-  }
+
   .top-section__number {
+    font-size: 5rem;
+    line-height: 7.1rem;
+    min-width: 10.3rem;
   }
+  
   .top-section__description {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    min-width: 10.3rem;
   }
+  
   .top-section__new {
+    font-size: 4rem;
+    line-height: 5.6rem; 
+    min-width: 8.9rem;
   }
+  
   .top-section__order {
+    width: 21.4rem;
+    height: 4.6rem;
+  
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  
   }
+  
+  .table {
+    width: 22.1rem;
+    margin-bottom: 10rem;
+  }
+  
   .top-section__button-down {
+  display: none;
   }
 }
+
 @media (max-width: 320px){
-  .conteiner-row {
-  }
-  .logo {
-  }
   .menu {
+    display: none;
   }
-  .menu__item {
+
+  .logo {
+    width: 6.6rem;
   }
+  
   .menu-button {
+    display: none;
+  }
+
+  .conteiner-row {
+    gap: 0;
+    justify-content: space-between;
   }
 
 
   .top-section {
+    width: 28rem;
+    height: 20.4rem;
   }
-  .section {
-  }
+  
   .top-section__title {
+    font-size: 3.5rem;
   }
+  
+  .top-section__title:before {
+    width: 16.1rem;
+    height: 17.9rem;
+    top: 5rem;
+    left: 11.8rem;
+    background-size: 16.1 auto;
+  }
+  
   .top-section__subtitle {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    padding-left: 4rem;
   }
-  .table {
-  }
-  .flex-column {
-  }
+
   .top-section__number {
+    font-size: 2.6rem;
+    line-height: 3.7em;
+    min-width: 6.5rem;
   }
+  
   .top-section__description {
+    font-size: 1rem;
+    line-height: 1.1rem;
+    min-width: 6.5rem;
   }
+  
   .top-section__new {
+    font-size: 2.2rem;
+    line-height: 3.1rem; 
+    min-width: 4.9rem;
   }
+  
   .top-section__order {
+    width: 11.7rem;
+    height: 2.7rem;
+  
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  
   }
-  .top-section__button-down {
+  
+  .table {
+    width: 14rem;
+    margin-bottom: 3rem;
   }
 }
