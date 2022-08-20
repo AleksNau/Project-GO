@@ -80,6 +80,7 @@
 .aboutus__oculus {
   background-image: url(../aboutus/image/1st.jpg);
   background-repeat: no-repeat;
+  background-size: 30rem auto;
   width: 30rem;
   height: 20.6rem;
   display: table-cell;
@@ -88,6 +89,7 @@
 .aboutus__neon {
   background-image: url(../aboutus/image/2nd.jpg);
   background-repeat: no-repeat;
+  background-size: 30rem auto;
   width: 30rem;
   height: 20.6rem;
   display: table-cell;
@@ -96,6 +98,7 @@
 .aboutus__pcgames {
   background-image: url(../aboutus/image/3th.jpg);
   background-repeat: no-repeat;
+  background-size: 16.4rem auto;
   width: 16.4rem;
   height: 22.4rem;
   display: table-cell;
@@ -104,6 +107,7 @@
 .aboutus__gba {
   background-image: url(../aboutus/image/4th.jpg);
   background-repeat: no-repeat;
+  background-size: 18rem auto;
   width: 18rem;
   height: 22.4rem;
   display: table-cell;
@@ -112,6 +116,7 @@
 .aboutus__gemepad {
   background-image: url(../aboutus/image/5th.jpg);
   background-repeat: no-repeat;
+  background-size: 25.6rem auto;
   width: 25.6rem;
   height: 22.4rem;
   display: table-cell;
@@ -120,6 +125,7 @@
 .aboutus__singer {
   background-image: url(../aboutus/image/6s.jpg);
   background-repeat: no-repeat;
+  background-size: 38rem auto;
   width: 38rem;
   height: 16.6rem;
   display: table-cell;
@@ -128,6 +134,7 @@
 .aboutus__vr {
   background-image: url(../aboutus/image/7th.jpg);
   background-repeat: no-repeat;
+  background-size: 22rem auto;
   width: 22rem;
   display: table-cell;
   height: 16.6rem;

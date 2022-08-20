@@ -9,6 +9,7 @@
 
 .entertainment-list__item {
   background-repeat: no-repeat;
+  background-size: 38rem auto;
   width: 38rem;
   height: 22.8rem;
   transition-duration: 300ms;
