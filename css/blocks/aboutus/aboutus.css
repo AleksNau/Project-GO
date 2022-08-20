@@ -157,3 +157,308 @@
   width: 118rem;
 }
 
+@media (max-width: 1024px){
+  .aboutus {
+    padding-top: 10rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  
+  .aboutus__slogan {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+  }
+  
+  .quote__game-cite {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    padding-left: 3.6rem;
+    text-indent:-3.6rem;
+  }
+  
+  .quote__game-cite:after {
+    padding-left: 1rem;
+  }
+  
+  .quote__picture {
+    width: 8rem;
+    height: 8rem;
+    max-height: 9.6rem;
+    background-size: 8rem auto;
+  }
+  
+  .quote__picture-title {
+    margin-left: 2.9rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  
+  .quote__signature-conteiner {
+    margin-top: 4rem;
+  }
+  
+  .quote {
+    margin-top: 5.9rem;
+  }
+  
+  
+  .aboutus__oculus {
+    background-size: 30rem auto;
+    width: 30rem;
+    height: 20.6rem;
+  }
+  
+  .aboutus__neon {
+    background-size: 30rem auto;
+    width: 30rem;
+    height: 20.6rem;
+  }
+  
+  .aboutus__pcgames {
+    background-size: 16.4rem auto;
+    width: 16.4rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__gba {
+    background-size: 18rem auto;
+    width: 18rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__gemepad {
+    background-size: 25.6rem auto;
+    width: 25.6rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__singer {
+    background-size: 38rem auto;
+    width: 38rem;
+    height: 16.6rem;
+  }
+  
+  .aboutus__vr {
+    background-size: 22rem auto;
+    width: 22rem;
+    height: 16.6rem;
+  }
+  
+  .aboutus__left-side{
+    width: 60rem;
+    margin-right: 7.4rem;
+  }
+  
+  .aboutus__right-side{
+    width: 50rem;
+  }
+  
+  .aboutus{
+    width: 118rem;
+  }
+  
+}
+@media (max-width: 768px){
+  .aboutus {
+    padding-top: 10rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  
+  .aboutus__slogan {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+  }
+  
+  .quote__game-cite {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    padding-left: 3.6rem;
+    text-indent:-3.6rem;
+  }
+  
+  .quote__game-cite:after {
+    padding-left: 1rem;
+  }
+  
+  .quote__picture {
+    width: 8rem;
+    height: 8rem;
+    max-height: 9.6rem;
+    background-size: 8rem auto;
+  }
+  
+  .quote__picture-title {
+    margin-left: 2.9rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  
+  .quote__signature-conteiner {
+    margin-top: 4rem;
+  }
+  
+  .quote {
+    margin-top: 5.9rem;
+  }
+  
+  
+  .aboutus__oculus {
+    background-size: 30rem auto;
+    width: 30rem;
+    height: 20.6rem;
+  }
+  
+  .aboutus__neon {
+    background-size: 30rem auto;
+    width: 30rem;
+    height: 20.6rem;
+  }
+  
+  .aboutus__pcgames {
+    background-size: 16.4rem auto;
+    width: 16.4rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__gba {
+    background-size: 18rem auto;
+    width: 18rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__gemepad {
+    background-size: 25.6rem auto;
+    width: 25.6rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__singer {
+    background-size: 38rem auto;
+    width: 38rem;
+    height: 16.6rem;
+  }
+  
+  .aboutus__vr {
+    background-size: 22rem auto;
+    width: 22rem;
+    height: 16.6rem;
+  }
+  
+  .aboutus__left-side{
+    width: 60rem;
+    margin-right: 7.4rem;
+  }
+  
+  .aboutus__right-side{
+    width: 50rem;
+  }
+  
+  .aboutus{
+    width: 118rem;
+  }
+}
+@media (max-width: 320px){
+  .aboutus {
+    padding-top: 10rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  
+  .aboutus__slogan {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+  }
+  
+  .quote__game-cite {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    padding-left: 3.6rem;
+    text-indent:-3.6rem;
+  }
+  
+  .quote__game-cite:after {
+    padding-left: 1rem;
+  }
+  
+  .quote__picture {
+    width: 8rem;
+    height: 8rem;
+    max-height: 9.6rem;
+    background-size: 8rem auto;
+  }
+  
+  .quote__picture-title {
+    margin-left: 2.9rem;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+  
+  .quote__signature-conteiner {
+    margin-top: 4rem;
+  }
+  
+  .quote {
+    margin-top: 5.9rem;
+  }
+  
+  
+  .aboutus__oculus {
+    background-size: 30rem auto;
+    width: 30rem;
+    height: 20.6rem;
+  }
+  
+  .aboutus__neon {
+    background-size: 30rem auto;
+    width: 30rem;
+    height: 20.6rem;
+  }
+  
+  .aboutus__pcgames {
+    background-size: 16.4rem auto;
+    width: 16.4rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__gba {
+    background-size: 18rem auto;
+    width: 18rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__gemepad {
+    background-size: 25.6rem auto;
+    width: 25.6rem;
+    height: 22.4rem;
+  }
+  
+  .aboutus__singer {
+    background-size: 38rem auto;
+    width: 38rem;
+    height: 16.6rem;
+  }
+  
+  .aboutus__vr {
+    background-size: 22rem auto;
+    width: 22rem;
+    height: 16.6rem;
+  }
+  
+  .aboutus__left-side{
+    width: 60rem;
+    margin-right: 7.4rem;
+  }
+  
+  .aboutus__right-side{
+    width: 50rem;
+  }
+  
+  .aboutus{
+    width: 118rem;
+  }
+}
+
