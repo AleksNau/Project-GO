@@ -138,28 +138,28 @@ height: auto;
 
 @media (max-width: 1024px){
   .footer {
-    padding-top: 5rem;
+    padding-top: 7rem;
   }
   .footer__contacts {
     font-size: 2.4rem;
     line-height: 2.8rem;
-    margin-bottom: 15.6rem;
+    margin-bottom: 9.5rem;
   }
   
   .footer__contact:before {
-    width: 3.4rem;
-    height: 3.2rem;
-    background-size: 3.4rem auto;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-size: 2.6rem auto;
   }
 
   .footer__contact {
     max-width: 30rem;
-    padding-left: 6rem;
+    padding-left: 4.9rem;
   
   }
   
   .footer__contact_type_adress {
-    margin-bottom: 3.8rem;
+    margin-bottom: 4rem;
   }
   
   .footer__links {
@@ -171,7 +171,7 @@ height: auto;
   }
   
   .footer__contact_type_tel {
-  margin-bottom: 1.3rem;
+  margin-bottom: 0.7rem;
   }
   
   .small__text {
@@ -186,36 +186,32 @@ height: auto;
   }
   
   .footer__svg {
-    width:4.8rem; 
-  }
-  
-  .footer__svg:focus {
-    outline: 1px solid var(--first-color);
+    width:3.9rem; 
   }
 
   .footer__link-icon {
-    width: 4.8rem;
-    height: 4.8rem;
+    width: 3.9rem;
+    height: 3.9rem;
   }
   
-  .footer__map{
-  width: 68rem;
+  .footer__map {
+  width: 54.2rem;
   }
 }
 @media (max-width: 768px){
   .footer {
-    padding-top: 5rem;
+    padding-top: 7rem;
   }
   .footer__contacts {
     font-size: 2.4rem;
-    line-height: 2.8rem;
-    margin-bottom: 15.6rem;
+    line-height: 3.6rem;
+    margin-bottom: 7.5rem;
   }
   
   .footer__contact:before {
-    width: 3.4rem;
-    height: 3.2rem;
-    background-size: 3.4rem auto;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-size: 2.6rem auto;
   }
 
   .footer__contact {
@@ -225,11 +221,11 @@ height: auto;
   }
   
   .footer__contact_type_adress {
-    margin-bottom: 3.8rem;
+    margin-bottom: 2.7rem;
   }
   
   .footer__links {
-    margin-top: 4rem;
+    margin-top: 2.8rem;
   }
   
   .footer__link {
@@ -237,7 +233,7 @@ height: auto;
   }
   
   .footer__contact_type_tel {
-  margin-bottom: 1.3rem;
+  margin-bottom: 2.7rem;
   }
   
   .small__text {
