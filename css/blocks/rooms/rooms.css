@@ -49,6 +49,7 @@
   color: #FFFFFF;
   margin-bottom: 5rem;
   white-space: pre-line;
+  grid-area: title;
 }
 
 @media (max-width: 1024px){

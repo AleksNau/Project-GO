@@ -5,6 +5,13 @@
   font-size: 2rem;
   line-height: 2.8rem;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-areas:
+  "title title"
+  "leftside rightpar"
+  "leftside quote";
+
 }
 
 .aboutus__slogan {
@@ -74,6 +81,7 @@
 .quote {
   padding: 0;
   margin-top: 5.9rem;
+  grid-area: quote;
 }
 
 
@@ -145,16 +153,22 @@
   width: 60rem;
   margin-right: 7.4rem;
   vertical-align: top;
+  grid-area: leftside;
 }
 
 .aboutus__right-side{
   display: inline-block;
   width: 50rem;
   vertical-align: top;
+  grid-area: rightside;
 }
 
 .aboutus{
   width: 118rem;
+}
+
+.aboutus__right-par{
+  grid-area: rightpar;
 }
 
 @media (max-width: 1024px){
@@ -264,8 +278,13 @@
     padding-top: 10rem;
     font-size: 2rem;
     line-height: 2.8rem;
+    grid-template-columns: repeat(2,auto);
+    grid-template-areas:
+    "title title"
+    "leftside rightpar"
+    "quote quote";
   }
-  
+
   .aboutus__slogan {
     font-size: 2rem;
     line-height: 2.8rem;
@@ -365,6 +384,12 @@
     padding-top: 10rem;
     font-size: 2rem;
     line-height: 2.8rem;
+    grid-template-columns: repeat(1,auto);
+    grid-template-areas:
+    "title"
+    "rightpar"
+    "leftside"
+    "quote";
   }
   
   .aboutus__slogan {
