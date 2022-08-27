@@ -181,14 +181,14 @@
   }
   
   .aboutus__slogan {
-    font-size: 2rem;
-    line-height: 2.8rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     margin-bottom: 4rem;
   }
   
   .quote__game-cite {
-    font-size: 4.4rem;
-    line-height: 5rem;
+    font-size: 3rem;
+    line-height: 3.6rem;
     padding-left: 3.6rem;
     text-indent:-3.6rem;
   }
@@ -198,76 +198,77 @@
   }
   
   .quote__picture {
-    width: 8rem;
-    height: 8rem;
-    max-height: 9.6rem;
-    background-size: 8rem auto;
+    width: 7rem;
+    height: 7rem;
+    max-height: 7rem;
+    background-size: 7rem auto;
   }
   
   .quote__picture-title {
     margin-left: 2.9rem;
-    font-size: 2rem;
-    line-height: 2.8rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
   }
   
   .quote__signature-conteiner {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   
   .quote {
-    margin-top: 5.9rem;
+    margin-top: 3.7rem;
+    max-width: 44rem;
   }
   
   
   .aboutus__oculus {
-    background-size: 30rem auto;
-    width: 30rem;
-    height: 20.6rem;
+    background-size: 21rem auto;
+    width: 21rem;
+    height: 14.4rem;
   }
   
   .aboutus__neon {
-    background-size: 30rem auto;
-    width: 30rem;
-    height: 20.6rem;
+    background-size: 21rem auto;
+    width: 21rem;
+    height: 14.4rem;
   }
   
   .aboutus__pcgames {
-    background-size: 16.4rem auto;
-    width: 16.4rem;
-    height: 22.4rem;
+    background-size: 11.4rem auto;
+    width: 11.4rem;
+    height: 15.6rem;
   }
   
   .aboutus__gba {
-    background-size: 18rem auto;
-    width: 18rem;
-    height: 22.4rem;
+    background-size: 12.6rem auto;
+    width: 12.6rem;
+    height: 15.6rem;
   }
   
   .aboutus__gemepad {
-    background-size: 25.6rem auto;
-    width: 25.6rem;
-    height: 22.4rem;
+    background-size: 17.9rem auto;
+    width: 17.9rem;
+    height: 15.6rem;
   }
   
   .aboutus__singer {
-    background-size: 38rem auto;
-    width: 38rem;
-    height: 16.6rem;
+    background-size: 26.6rem auto;
+    width: 26.6rem;
+    height: 11.6rem;
   }
   
   .aboutus__vr {
-    background-size: 22rem auto;
-    width: 22rem;
-    height: 16.6rem;
+    background-size: 15.4rem auto;
+    width: 15.4rem;
+    height: 11.6rem;
   }
   
   .aboutus__left-side {
-    width: 60rem;
+    max-width: 42rem;
     margin-right: 3.9rem;
   }
   
-  .aboutus__right-side{
-    width: unset;
+  .aboutus__right-par{
+    max-width: 44rem;
   }
   
   .aboutus{
@@ -326,45 +327,45 @@
   
   
   .aboutus__oculus {
-    background-size: 30rem auto;
-    width: 30rem;
-    height: 20.6rem;
+    background-size: 21rem auto;
+    width: 21rem;
+    height: 14.4rem;
   }
   
   .aboutus__neon {
-    background-size: 30rem auto;
-    width: 30rem;
-    height: 20.6rem;
+    background-size: 21rem auto;
+    width: 21rem;
+    height: 14.4rem;
   }
   
   .aboutus__pcgames {
-    background-size: 16.4rem auto;
-    width: 16.4rem;
-    height: 22.4rem;
+    background-size: 11.4rem auto;
+    width: 11.4rem;
+    height: 15.6rem;
   }
   
   .aboutus__gba {
-    background-size: 18rem auto;
-    width: 18rem;
-    height: 22.4rem;
+    background-size: 12.6rem auto;
+    width: 12.6rem;
+    height: 15.6rem;
   }
   
   .aboutus__gemepad {
-    background-size: 25.6rem auto;
-    width: 25.6rem;
-    height: 22.4rem;
+    background-size: 17.9rem auto;
+    width: 17.9rem;
+    height: 15.6rem;
   }
   
   .aboutus__singer {
-    background-size: 38rem auto;
-    width: 38rem;
-    height: 16.6rem;
+    background-size: 26.6rem auto;
+    width: 26.6rem;
+    height: 11.6rem;
   }
   
   .aboutus__vr {
-    background-size: 22rem auto;
-    width: 22rem;
-    height: 16.6rem;
+    background-size: 15.4rem auto;
+    width: 15.4rem;
+    height: 11.6rem;
   }
   
   .aboutus__left-side{
@@ -394,16 +395,16 @@
   }
   
   .aboutus__slogan {
-    font-size: 2rem;
-    line-height: 2.8rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
     margin-bottom: 4rem;
   }
   
   .quote__game-cite {
-    font-size: 4.4rem;
-    line-height: 5rem;
-    padding-left: 3.6rem;
-    text-indent:-3.6rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    padding-left: 2.6rem;
+    text-indent:-2.6rem;
   }
   
   .quote__game-cite:after {
@@ -411,16 +412,16 @@
   }
   
   .quote__picture {
-    width: 8rem;
-    height: 8rem;
-    max-height: 9.6rem;
-    background-size: 8rem auto;
+    width: 5.6rem;
+    height: 5.6rem;
+    max-height: 5.6rem;
+    background-size: 5.6rem auto;
   }
   
   .quote__picture-title {
-    margin-left: 2.9rem;
-    font-size: 2rem;
-    line-height: 2.8rem;
+    margin-left: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
   }
   
   .quote__signature-conteiner {
@@ -433,50 +434,50 @@
   
   
   .aboutus__oculus {
-    background-size: 30rem auto;
-    width: 30rem;
-    height: 20.6rem;
+    background-size: 14rem auto;
+    width: 14rem;
+    height: 9.6rem;
   }
   
   .aboutus__neon {
-    background-size: 30rem auto;
-    width: 30rem;
-    height: 20.6rem;
+    background-size: 14rem auto;
+    width: 14rem;
+    height: 9.6rem;
   }
   
   .aboutus__pcgames {
-    background-size: 16.4rem auto;
-    width: 16.4rem;
-    height: 22.4rem;
+    background-size: 7.6rem auto;
+    width: 7.6rem;
+    height: 10.5rem;
   }
   
   .aboutus__gba {
-    background-size: 18rem auto;
-    width: 18rem;
-    height: 22.4rem;
+    background-size: 8.4rem auto;
+    width: 8.4rem;
+    height: 10.5rem;
   }
   
   .aboutus__gemepad {
-    background-size: 25.6rem auto;
-    width: 25.6rem;
-    height: 22.4rem;
+    background-size: 11.9rem auto;
+    width: 11.9rem;
+    height: 10.5rem;
   }
   
   .aboutus__singer {
-    background-size: 38rem auto;
-    width: 38rem;
-    height: 16.6rem;
+    background-size: 17.7rem auto;
+    width: 17.7rem;
+    height: 7.8rem;
   }
   
   .aboutus__vr {
-    background-size: 22rem auto;
-    width: 22rem;
-    height: 16.6rem;
+    background-size: 10.2rem auto;
+    width: 10.2rem;
+    height: 7.8rem;
   }
   
   .aboutus__left-side{
-    width: 32rem;
-    margin-right: 7.4rem;
+    width: unset;
+    margin-right: 0;
   }
   
   .aboutus__right-side{
