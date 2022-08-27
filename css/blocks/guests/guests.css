@@ -143,6 +143,7 @@
     height: 8.6rem;
     max-height: 8.6rem;
     margin-right: 2rem;
+    margin: 0 auto;
   }
   
   .conteiner-round:after {
@@ -150,6 +151,7 @@
     height: 8.6rem;
     background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
     border-radius: 1140px;
+    
   }
   
   .guests__comment {
@@ -165,6 +167,7 @@
 
   .guests__item {
     margin-bottom: 2rem;
+    display: block;
   }
   
   .guests__name {
