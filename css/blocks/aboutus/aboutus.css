@@ -1,5 +1,7 @@
 .aboutus {
   padding-top: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
@@ -259,9 +261,9 @@
     height: 16.6rem;
   }
   
-  .aboutus__left-side{
+  .aboutus__left-side {
     width: 60rem;
-    margin-right: 7.4rem;
+    margin-right: 3.9rem;
   }
   
   .aboutus__right-side{
@@ -284,7 +286,6 @@
     "leftside rightpar"
     "quote quote";
   }
-
   .aboutus__slogan {
     font-size: 2rem;
     line-height: 2.8rem;
@@ -367,8 +368,8 @@
   }
   
   .aboutus__left-side{
-    width: 60rem;
-    margin-right: 7.4rem;
+    width: 38.2rem;
+    margin-right: 2.8rem;
   }
   
   .aboutus__right-side{

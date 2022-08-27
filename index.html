@@ -151,7 +151,7 @@
 
           <fieldset class="form__parameters form__parameters_type_date">
             <legend class="form__title">Выбери дату и время</legend>
-            <div class="form__column form__column_size_normal">
+            <div class="form__column form__column_size_normal grid_column_one">
               <div class="form__row">
                 <input onfocus="this.type='date'" onblur="this.type='text'" type="date" name="data"
                   class="form__input form__input-date" tabindex="0" placeholder="ДАТА" required>
@@ -161,13 +161,13 @@
               <input name="amount" type="number" class="form__input" tabindex="0" placeholder="Сколько человек"
                 required>
             </div>
-            <div class="form__column form__column_size_compressed">
+            <div class="form__column form__column_size_compressed grid_column_two">
               <label for="firstName" class="form__label-small">Имя</label>
               <input type="text" name="firstName" class="form__input" id="firstName" tabindex="0">
               <label for="secondName" class="form__label-small">Фамилия</label>
               <input type="text" name="secondName" class="form__input" id="secondName" tabindex="0" required>
             </div>
-            <div class="form__column form__column_size_normal">
+            <div class="form__column form__column_size_normal grid_column_three">
               <label for="tel" class="form__label-small">Телефон</label>
               <input type="tel" name="tel" class="form__input" id="tel" tabindex="0" required>
               <label for="email" class="form__label-small">email</label>
@@ -270,7 +270,7 @@
   <footer class="footer section">
     <div class="conteiner">
       <h2 id="six" class="section-title">Контакты</h2>
-      <div class="footer__contacts">
+      <div class="footer__contacts container_column">
         <div>
           <address>
             <p class="footer__contact footer__contact_type_adress">г.Москва
