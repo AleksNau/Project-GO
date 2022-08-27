@@ -441,6 +441,18 @@
  
 @media (max-width: 320px){
 
+  .form__parameters {
+    grid-template-columns: repeat(1,auto);
+    grid-template-areas:
+    "first"
+    "second"
+    "three";
+  }
+
+  .grid_column_one {
+    flex-direction: column;
+  }
+
   .form__label-radio {
     font-size: 1.4rem;
     line-height: 3rem;
@@ -472,6 +484,7 @@
   
   .chooseRoom {
     margin-bottom: 3rem;
+    flex-wrap: wrap;
   }
   
   .form__column {
