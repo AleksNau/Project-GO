@@ -296,6 +296,10 @@
   .form__options_type_kits {
     gap: 4rem;
   }
+  .form__options {
+    display: flex;
+    margin-bottom: 6.7rem;
+  }
 }
 
 @media (max-width: 768px){

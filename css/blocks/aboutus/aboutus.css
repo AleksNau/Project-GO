@@ -265,11 +265,11 @@
   }
   
   .aboutus__right-side{
-    width: 50rem;
+    width: unset;
   }
   
   .aboutus{
-    width: 118rem;
+    width: unset;
   }
   
 }
@@ -372,11 +372,11 @@
   }
   
   .aboutus__right-side{
-    width: 50rem;
+    width: unset;
   }
   
   .aboutus{
-    width: 118rem;
+    width: unset;
   }
 }
 @media (max-width: 320px){
@@ -479,11 +479,11 @@
   }
   
   .aboutus__right-side{
-    width: 50rem;
+    width: unset;
   }
   
   .aboutus{
-    width: 118rem;
+    width: unset;
   }
 }
 
