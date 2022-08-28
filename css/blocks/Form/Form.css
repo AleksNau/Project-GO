@@ -121,7 +121,7 @@
 }
 
 .form__input-date {
-  width: 13.4rem;
+  width: 11rem;
 }
 
 .form {
@@ -273,10 +273,12 @@
     gap: 2rem;
     font-size: 2.2rem;
     line-height: 2.5rem;
+    white-space: nowrap;
   }
   
   .form__parameters {
     margin-bottom: 6rem;
+    justify-content: space-between;
   }
   
   .form__input {
@@ -300,7 +302,7 @@
   }
   
   .form__row {
-    padding: 2.9rem 0;
+    padding: 3.6rem 0;
   }
   
   .form__column_size_compressed {
@@ -316,6 +318,7 @@
   }
   .form__options {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 6.7rem;
   }
 }

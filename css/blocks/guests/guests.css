@@ -82,13 +82,15 @@
   
   .guests__comment {
     padding-top: 3.3rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
   }
   
   .guests {
     font-size: 1.8rem;
     line-height: 2.6rem;
   
-    width: 51.5rem;
+    width: 72.5rem;
   }
 
   .guests__item {
@@ -97,6 +99,9 @@
   
   .guests__name{
     padding-top: 2.1rem;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    width: 17.2rem;
   
   }
   

@@ -63,7 +63,18 @@
 
 
 @media (max-width: 1024px){
-  
+  .question-list__item:nth-child(even) {
+    background-color: #FFFFFF;
+    background-image: url("../question/icons/open-purple.svg");
+    color: black;
+  }
+  .question-list__item:nth-child(even):hover {
+    background-image: url("../question/icons/openPurple.png");
+
+  }
+  .question-list__item:nth-child(even):active {
+    background-image: url("../question/icons/closePurple.png");
+  }
   .question-list__item {
     font-size: 2rem;
     padding: 3rem 7rem;

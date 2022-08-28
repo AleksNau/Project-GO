@@ -14,7 +14,6 @@
   height: 22.8rem;
   transition-duration: 300ms;
   cursor: pointer;
-
 }
 
 .entertainment-list__item:nth-child(1) {
@@ -69,7 +68,9 @@
   .entertainment-list {
     gap: 3rem 2.2rem;
   }
-  
+  .test__enterteiment{
+height: 46.2rem;
+  }
   .entertainment-list__item {
     background-size: 28.7rem auto;
     width: 28.7rem;
@@ -96,7 +97,9 @@
     gap: 2rem;
     flex-wrap: wrap;
   }
-  
+  .test__enterteiment{
+    height: auto;
+      }
   .entertainment-list__item {
     background-size: 33.4rem auto;
     width: 33.4rem;
