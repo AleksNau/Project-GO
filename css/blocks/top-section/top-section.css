@@ -236,7 +236,6 @@ ul {
     font-size: 1.8rem;
   
     border-radius: 1rem;
-    border: solid 0.3rem;
   }
 
   .conteiner-row {
@@ -323,12 +322,13 @@ ul {
 
   .conteiner-row {
     gap: 15.9rem;
+    justify-content: space-between;
   }
 
 
   .top-section {
     width: 68.8rem;
-    height: 53.7rem;
+    height: 60.5rem;
   }
   
   .top-section__title {
@@ -408,7 +408,7 @@ ul {
 
   .top-section {
     width: 28rem;
-    height: 20.4rem;
+    height: 30.4rem;
   }
   
   .top-section__title {
@@ -420,7 +420,7 @@ ul {
     height: 17.9rem;
     top: 5rem;
     left: 11.8rem;
-    background-size: 16.1 auto;
+    background-size: 16.1rem auto;
   }
   
   .top-section__subtitle {

@@ -294,8 +294,8 @@
   }
   
   .quote__game-cite {
-    font-size: 4.4rem;
-    line-height: 5rem;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
     padding-left: 3.6rem;
     text-indent:-3.6rem;
   }
@@ -323,6 +323,7 @@
   
   .quote {
     margin-top: 5.9rem;
+    max-width: unset;
   }
   
   

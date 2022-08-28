@@ -118,4 +118,8 @@ label:active, label:focus { outline: none; }
     box-sizing: border-box;
     font-size: calc(10 * 100vw / 320);
   }
+  .conteiner {
+    padding: 0 2rem;
+  }
+
 }

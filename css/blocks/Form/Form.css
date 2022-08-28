@@ -321,6 +321,11 @@
     justify-content: space-between;
     margin-bottom: 6.7rem;
   }
+
+  .grid_column_one {
+    width: 30rem;
+  }
+
 }
 
 @media (max-width: 768px){
@@ -374,7 +379,7 @@
 
   .form__parameters_type_date {
     justify-content: flex-start;
-    gap: 5rem;
+    gap: 4.2rem 10.6rem;
   }
   
   .form__input {
@@ -384,7 +389,6 @@
     font-size: 2.2rem;
   }
 
-  /*Переделать!*/
   .form__input-date {
     width: 10.6rem;
     display: flex;
@@ -400,14 +404,16 @@
   .form__radio-button {
     height: 4rem;
     width: 4rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
+    vertical-align: middle;
   
   }
 
   .form__checkbox {
     height: 4rem;
-    width: 4em;
-    margin-right: 0.5rem; 
+    width: 4rem;
+    margin-right: 1rem; 
+    vertical-align: middle;
   }
   
   .form__button-booking {
@@ -418,27 +424,46 @@
   .form__subtitle {
     margin-bottom: 2.4rem;
   }
-  /*Переделать!*/
+
   .form__row {
-    gap: 3.2rem;
-    padding: 2.9rem 0;
+    gap: 1.4rem;
+    padding: 0;
+    width: 28rem;
   }
   
   .form__column_size_compressed {
     width: 23.5rem;
+    padding: 0;
   }
   
   .form__column_size_normal {
     width: 25.1rem;
+    padding: 0;
   }
   
   .form__options {
-    margin-bottom: 6.7rem;
+    margin-bottom: 5rem;
   }
   /*проверить*/
   .form__options_type_kits {
     justify-content: flex-start;
     gap: 6.6rem;
+  }
+
+  .grid_column_one{
+    gap: 10.6rem;
+  }
+
+  .grid_column_two {
+    width: 28rem;
+  }
+
+  .grid_column_three {
+    width: 30rem;
+  }
+
+  .form__input_amount{
+    min-width: 30rem;
   }
 }
  

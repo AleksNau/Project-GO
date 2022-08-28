@@ -1,4 +1,3 @@
-@import "variables.css";
 @import "global.css";
 @import "normalize.css";
 @import "./blocks/top-section/top-section.css";
@@ -9,3 +8,4 @@
 @import "./blocks/guests/guests.css";
 @import "./blocks/enterteiment/entertainment.css";
 @import "./blocks/Form/Form.css";
+@import "variables.css";
