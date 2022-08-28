@@ -122,4 +122,8 @@ label:active, label:focus { outline: none; }
     padding: 0 2rem;
   }
 
+  .section {
+    padding: 1.5rem 0;
+  }
+
 }

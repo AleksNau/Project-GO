@@ -161,6 +161,8 @@
   
   .guests__comment {
     padding-top: 1.6rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
   }
   
   .guests {
@@ -177,7 +179,16 @@
   
   .guests__name {
     padding-top: 0.9rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin: 0 auto;
   
+  }
+
+  .conteiner-round:after {
+    top:37%;
+    left:50%;
+    transform:translate(-50%, -50%);
   }
 }
 

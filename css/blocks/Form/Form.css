@@ -489,6 +489,7 @@
     padding: 0px 2rem;
     width: 13rem;
     height: 3rem;
+    white-space: nowrap;
   }
   
   .form__button:checked+.form__label-radio {
@@ -513,6 +514,7 @@
   .chooseRoom {
     margin-bottom: 3rem;
     flex-wrap: wrap;
+    gap: 2rem;
   }
   
   .form__column {
@@ -591,7 +593,7 @@
   }
   
   .form__row {
-    gap: 3.2rem;
+    gap: 1.2rem;
     padding: 2.9rem 0;
   }
   
@@ -608,7 +610,7 @@
   }
   
   .form__options_type_kits {
-    gap: 10rem;
+    gap: 2.5rem;
   }
 }
 

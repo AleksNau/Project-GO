@@ -400,12 +400,17 @@
     line-height: 1.6rem;
     margin-bottom: 4rem;
   }
+
+  .aboutus__slogan:last-child {
+    margin-bottom: 1.4rem;
+  }
   
   .quote__game-cite {
     font-size: 1.8rem;
     line-height: 2.6rem;
-    padding-left: 2.6rem;
-    text-indent:-2.6rem;
+    padding-left: 2rem;
+    text-indent:-2rem;
+    white-space: unset;
   }
   
   .quote__game-cite:after {
@@ -426,11 +431,11 @@
   }
   
   .quote__signature-conteiner {
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
   
   .quote {
-    margin-top: 5.9rem;
+    margin-top: 2rem;
   }
   
   
@@ -486,6 +491,8 @@
   }
   
   .aboutus{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
     width: unset;
   }
 }
