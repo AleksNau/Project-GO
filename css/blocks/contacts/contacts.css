@@ -145,7 +145,7 @@ height: auto;
     line-height: 2.8rem;
     margin-bottom: 9.5rem;
   }
-  
+
   .footer__contact:before {
     width: 2.6rem;
     height: 2.6rem;
@@ -155,45 +155,45 @@ height: auto;
   .footer__contact {
     max-width: 30rem;
     padding-left: 4.9rem;
-  
+
   }
-  
+
   .footer__contact_type_adress {
     margin-bottom: 4rem;
   }
-  
+
   .footer__links {
     margin-top: 4rem;
   }
-  
+
   .footer__link {
     margin-right: 2.7rem;
   }
-  
+
   .footer__contact_type_tel {
   margin-bottom: 0.7rem;
   }
-  
+
   .small__text {
     font-size: 1.4rem;
     line-height: 1.6rem;
     margin-bottom: 0.6rem;
   }
-  
+
   .small__text:last-child {
     padding-bottom: 1rem;
     margin-bottom: 0;
   }
-  
+
   .footer__svg {
-    width:3.9rem; 
+    width:3.9rem;
   }
 
   .footer__link-icon {
     width: 3.9rem;
     height: 3.9rem;
   }
-  
+
   .footer__map {
   width: 54.2rem;
   }
@@ -213,7 +213,7 @@ height: auto;
     line-height: 3.6rem;
     margin-bottom: 7.5rem;
   }
-  
+
   .footer__contact:before {
     width: 2.6rem;
     height: 2.6rem;
@@ -223,41 +223,41 @@ height: auto;
   .footer__contact {
     max-width: unset;
     padding-left: 6rem;
-  
+
   }
-  
+
   .footer__contact_type_adress {
     margin-bottom: 2.7rem;
   }
-  
+
   .footer__links {
     margin-top: 2.8rem;
     margin-bottom: 3.8rem;
   }
-  
+
   .footer__link {
     margin-right: 2.7rem;
   }
-  
+
   .footer__contact_type_tel {
   margin-bottom: 2.7rem;
   }
-  
+
   .small__text {
     font-size: 1.4rem;
     line-height: 1.6rem;
     margin-bottom: 0.6rem;
   }
-  
+
   .small__text:last-child {
     padding-bottom: 1rem;
     margin-bottom: 0;
   }
-  
+
   .footer__svg {
-    width:3.84rem; 
+    width:3.84rem;
   }
-  
+
   .footer__svg:focus {
     outline: 1px solid var(--first-color);
   }
@@ -266,7 +266,7 @@ height: auto;
     width: 4.8rem;
     height: 4.8rem;
   }
-  
+
   .footer__map{
   width: 68rem;
   }
@@ -278,9 +278,9 @@ height: auto;
   .footer__contacts {
     font-size: 2.4rem;
     line-height: 2.8rem;
-    margin-bottom: 15.6rem;
+    margin-bottom: 6.3rem;
   }
-  
+
   .footer__contact:before {
     width: 2rem;
     height: 2rem;
@@ -293,39 +293,39 @@ height: auto;
     font-size: 1.4rem;
     line-height: 1.8rem;
   }
-  
+
   .footer__contact_type_adress {
     margin-bottom: 3.5rem;
     margin-top: 1rem;
   }
-  
+
   .footer__links {
     margin-top: 4rem;
   }
-  
+
   .footer__link {
     margin-right: 2rem;
   }
-  
+
   .footer__contact_type_tel {
   margin-bottom: 1.3rem;
   }
-  
+
   .small__text {
     font-size: 1.2rem;
     line-height: 1.6rem;
     margin-bottom: 0.6rem;
   }
-  
+
   .small__text:last-child {
     padding-bottom: 1rem;
     margin-bottom: 0;
   }
-  
+
   .footer__svg {
-    width:2.9rem; 
+    width:2.9rem;
   }
-  
+
   .footer__svg:focus {
     outline: 1px solid var(--first-color);
   }
@@ -334,7 +334,7 @@ height: auto;
     width: 2.9rem;
     height: 2.9rem;
   }
-  
+
   .footer__map{
   width: 28rem;
   height: 19.4rem;
