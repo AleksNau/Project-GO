@@ -9,6 +9,20 @@
   font-style: normal;
 }
 
+.hidden-button {
+  border-style: none;
+  background-color: transparent;
+  display: none;
+}
+
+.hidden-button__background {
+  display: block;
+  background-image: url(./image/menu.png);
+  width: 5.4rem;
+  height: 2.9rem;
+  background-size: 5.4rem auto;
+}
+
 .top-section__title {
   font-style: normal;
   font-weight: 900;
@@ -308,6 +322,10 @@ ul {
 
 }
 @media (max-width: 768px){
+  .hidden-button {
+    display: block;
+  }
+
   .menu {
     display: none;
   }
