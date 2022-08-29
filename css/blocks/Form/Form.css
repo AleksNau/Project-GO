@@ -1,5 +1,4 @@
 
-
 .form__label-radio {
   display: inline-block;
   cursor: pointer;
@@ -177,6 +176,7 @@
   border-style: none;
   transition-duration: 300ms;
   transition-timing-function: linear;
+  box-shadow: 20px 20px white;
 }
 .form__button-booking:hover {
   background-color: #EADEED;
@@ -249,17 +249,17 @@
     width: 18rem;
     height: 4.4rem;
   }
-  
+
   .form__button:checked+.form__label-radio {
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.6rem;
   }
-  
+
   .form__label-radio:focus {
     border: 0.3rem solid var(--second-color);
     border-radius: 0.6rem;
   }
-  
+
   .form__label-radio:hover {
     border: 0.3rem solid var(--second-color);
     border-radius: 0.6rem;
@@ -268,51 +268,51 @@
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.6rem;
   }
-  
+
   .form__column {
     gap: 2rem;
     font-size: 2.2rem;
     line-height: 2.5rem;
     white-space: nowrap;
   }
-  
+
   .form__parameters {
     margin-bottom: 6rem;
     justify-content: space-between;
   }
-  
+
   .form__input {
     max-height: 4.9rem;
     min-width: 13.3rem;
     padding: 1.2rem 2rem;
     font-size: 1.8rem;
   }
-  
+
   .form__title {
     margin-bottom: 2.6rem;
   }
-  
-  
+
+
   .form__button-booking {
     height: 5rem;
     margin-top: 2.6rem;
-  
+
     font-size: 2.2rem;
     line-height: 2.8rem;
   }
-  
+
   .form__row {
     padding: 3.6rem 0;
   }
-  
+
   .form__column_size_compressed {
     width: 23.5rem;
   }
-  
+
   .form__column_size_normal {
     width: 25.1rem;
   }
-  
+
   .form__options_type_kits {
     gap: 4rem;
   }
@@ -349,17 +349,17 @@
     width: 15rem;
     height: 3.8rem;
   }
-  
+
   .form__button:checked+.form__label-radio {
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.6rem;
   }
-  
+
   .form__label-radio:focus {
     border: 0.3rem solid var(--second-color);
     border-radius: 0.6rem;
   }
-  
+
   .form__label-radio:hover {
     border: 0.3rem solid var(--second-color);
     border-radius: 0.6rem;
@@ -368,11 +368,11 @@
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.6rem;
   }
-  
+
   .chooseRoom {
     margin-bottom: 5rem;
   }
-  
+
   .form__parameters {
     margin-bottom: 5rem;
   }
@@ -381,7 +381,7 @@
     justify-content: flex-start;
     gap: 4.2rem 10.6rem;
   }
-  
+
   .form__input {
     max-height: 4.9rem;
     min-width: 13.3rem;
@@ -394,28 +394,28 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .form__title {
     font-size: 2.4rem;
     line-height: 2.8rem;
     margin-bottom: 3rem;
   }
-  
+
   .form__radio-button {
     height: 4rem;
     width: 4rem;
     margin-right: 1rem;
     vertical-align: middle;
-  
+
   }
 
   .form__checkbox {
     height: 4rem;
     width: 4rem;
-    margin-right: 1rem; 
+    margin-right: 1rem;
     vertical-align: middle;
   }
-  
+
   .form__button-booking {
     height: 6rem;
     margin-top: 2.6rem;
@@ -430,17 +430,17 @@
     padding: 0;
     width: 28rem;
   }
-  
+
   .form__column_size_compressed {
     width: 23.5rem;
     padding: 0;
   }
-  
+
   .form__column_size_normal {
     width: 25.1rem;
     padding: 0;
   }
-  
+
   .form__options {
     margin-bottom: 5rem;
   }
@@ -466,7 +466,7 @@
     min-width: 30rem;
   }
 }
- 
+
 @media (max-width: 320px){
 
   .form__parameters {
@@ -491,17 +491,17 @@
     height: 3rem;
     white-space: nowrap;
   }
-  
+
   .form__button:checked+.form__label-radio {
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.4rem;
   }
-  
+
   .form__label-radio:focus {
     border: 0.3rem solid var(--second-color);
     border-radius: 0.4rem;
   }
-  
+
   .form__label-radio:hover {
     border: 0.3rem solid var(--second-color);
     border-radius: 0.4rem;
@@ -510,19 +510,19 @@
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.4rem;
   }
-  
+
   .chooseRoom {
     margin-bottom: 3rem;
     flex-wrap: wrap;
     gap: 2rem;
   }
-  
+
   .form__column {
     gap: 1.5rem;
     font-size: 1.6rem;
     line-height: 1.8rem;
   }
-  
+
   .form__parameters {
     margin-bottom: 6rem;
   }
@@ -530,29 +530,29 @@
   .form__parameters_type_date {
     gap: 3rem;
   }
-  
+
   .form__input {
     max-height: 5.2rem;
     min-width: 13.3rem;
     padding: 1.2rem 2rem;
     font-size: 1.4rem;
   }
-  
+
   .form__input:focus {
     outline: 2px solid var(--first-color);
   }
-  
+
   .form__title {
     font-size: 1.4rem;
     line-height: 1.8rem;
     margin-bottom: 2.5rem;
   }
-  
+
   .form__radio-button {
     height: 3rem;
     width: 3rem;
     margin-right: 0.5rem;
-  
+
   }
 
   .form__checkbox {
@@ -560,12 +560,12 @@
     width: 3rem;
     margin-right: 0.5rem;
   }
-  
+
   .form__button-booking {
     height: 6rem;
     border-radius: 1rem;
     margin-top: 2.6rem;
-  
+
     font-size: 1.8rem;
     line-height: 2.6rem;
     border-radius: 0.4rem;
@@ -575,40 +575,40 @@
     border: 0.3rem solid var(--second-color);
     border-radius: 0.4rem;
   }
-  
+
   .form__button-booking:focus {
     border: 0.3rem solid var(--third-color);
     border-radius: 0.4rem;
   }
-  
+
   .form__button-booking:active {
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.4rem;
   }
-  
+
   .form__subtitle {
     margin-bottom: 1.5rem;
     font-size: 1.4rem;
     line-height: 1.8rem;
   }
-  
+
   .form__row {
     gap: 1.2rem;
     padding: 2.9rem 0;
   }
-  
+
   .form__column_size_compressed {
     width: 28rem;
   }
-  
+
   .form__column_size_normal {
     width: 28rem;
   }
-  
+
   .form__options {
     margin-bottom: 3rem;
   }
-  
+
   .form__options_type_kits {
     gap: 2.5rem;
   }
