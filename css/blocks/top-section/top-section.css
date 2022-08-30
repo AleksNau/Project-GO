@@ -332,6 +332,7 @@ ul {
 
   .logo {
     width: 8.7rem;
+    margin-left: 8.7rem;
   }
 
   .menu-button {
@@ -341,6 +342,7 @@ ul {
   .conteiner-row {
     gap: unset;
     justify-content: space-between;
+    align-items: center;
   }
 
 
@@ -412,6 +414,8 @@ ul {
 
   .logo {
     width: 6.6rem;
+    margin-left: 0;
+
   }
 
   .menu-button {
