@@ -290,9 +290,10 @@ height: auto;
 
   .footer__contact {
     max-width: 30rem;
-    padding-left: 3rem;
+    padding-left: 0;
     font-size: 1.4rem;
     line-height: 1.8rem;
+    text-align: center;
   }
 
   .footer__contact_type_adress {
@@ -348,5 +349,11 @@ height: auto;
   .small{
     flex-direction: column;
     align-items: center;
+  }
+
+  .footer__contact:before {
+    display: inline-block;
+    position: unset;
+    transform: unset;
   }
 }

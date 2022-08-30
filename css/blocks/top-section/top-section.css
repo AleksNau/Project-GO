@@ -421,6 +421,7 @@ ul {
   .conteiner-row {
     gap: 18rem;
     justify-content: space-between;
+    align-items: center;
   }
 
 
