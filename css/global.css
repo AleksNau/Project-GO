@@ -3,6 +3,7 @@ html {
   box-sizing: border-box;
   font-size: calc(10 * 100vw / 1920);
   padding-top: 3rem;
+  scroll-behavior: smooth;
 }
 
 
