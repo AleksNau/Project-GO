@@ -70,11 +70,11 @@
     margin-right: 2rem;
     margin-bottom: 2rem;
   }
-  
+
   .rooms__item_wildwest {
     margin-bottom: 7rem;
   }
-  
+
   .rooms__item_neonstyle {
     margin-left: 2rem;
   }
@@ -99,11 +99,11 @@
     margin-right: 2rem;
     margin-bottom: 1.7rem;
   }
-  
+
   .rooms__item_wildwest {
     margin-bottom: 6rem;
   }
-  
+
   .rooms__item_neonstyle {
     margin-left: 2rem;
   }
@@ -119,9 +119,10 @@
   .rooms__item {
     width: 28rem;
     height: 16.8rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
     font-size: 2.6rem;
     line-height: 3.4rem;
+    white-space: pre-line;
   }
 
   .rooms {
@@ -133,11 +134,11 @@
     margin-right: 0;
     margin-bottom: 0;
   }
-  
+
   .rooms__item_wildwest {
     margin-bottom: 0;
   }
-  
+
   .rooms__item_neonstyle {
     margin-left: 0;
   }

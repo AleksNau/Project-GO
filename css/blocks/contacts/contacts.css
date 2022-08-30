@@ -289,12 +289,13 @@ height: auto;
   }
 
   .footer__contact {
+    display: block;
     max-width: 30rem;
     padding-left: 0;
     font-size: 1.4rem;
     line-height: 1.8rem;
     text-align: center;
-
+    vertical-align: middle;
   }
 
   .footer__contact_type_adress {
@@ -356,5 +357,8 @@ height: auto;
     display: inline-block;
     position: unset;
     transform: unset;
+    margin-right: 5px;
+    background-position: 0 2px;
+    background-repeat: no-repeat;
   }
 }
