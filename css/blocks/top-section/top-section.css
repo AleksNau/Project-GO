@@ -419,7 +419,7 @@ ul {
   }
 
   .conteiner-row {
-    gap: 16rem;
+    gap: 18rem;
     justify-content: space-between;
   }
 
@@ -478,5 +478,16 @@ ul {
   .table {
     width: 14rem;
     margin-bottom: 3rem;
+  }
+
+  .hidden-button {
+    width: 3.9rem;
+    height: 2rem;
+  }
+
+  .hidden-button__background {
+    width: 3.9rem;
+    height: 2rem;
+    background-size: 3.9rem auto;
   }
 }
