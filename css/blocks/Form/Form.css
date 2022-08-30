@@ -176,7 +176,6 @@
   border-style: none;
   transition-duration: 300ms;
   transition-timing-function: linear;
-  box-shadow: 20px 20px white;
 }
 .form__button-booking:hover {
   background-color: #EADEED;

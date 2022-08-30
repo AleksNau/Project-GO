@@ -271,6 +271,7 @@ height: auto;
   width: 68rem;
   }
 }
+
 @media (max-width: 320px){
   .footer {
     padding-top: 1.5rem;
@@ -297,6 +298,7 @@ height: auto;
   .footer__contact_type_adress {
     margin-bottom: 3.5rem;
     margin-top: 1rem;
+    white-space: pre-line;
   }
 
   .footer__links {
@@ -315,6 +317,9 @@ height: auto;
     font-size: 1.2rem;
     line-height: 1.6rem;
     margin-bottom: 0.6rem;
+  }
+  .small__text-trademark {
+    margin-bottom: 1.9rem;
   }
 
   .small__text:last-child {

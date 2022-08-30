@@ -80,13 +80,13 @@
     padding: 3rem 7rem;
     margin-bottom: 2rem;
     line-height: 2.4rem;
-  
+
   }
   .question-list__item:nth-child(odd) {
     background-size: 4.6rem auto;
     background-position: 83.8rem 1.2rem;
   }
-  
+
   .question-list__item:nth-child(even) {
     background-size: 4.6rem auto;
     background-position: 83.8rem 1.2rem;
@@ -114,13 +114,13 @@
     padding: 2.3rem 7rem;
     margin-bottom: 2rem;
     line-height: 2.4rem;
-  
+
   }
   .question-list__item:nth-child(odd) {
     background-size: 4.6rem auto;
     background-position: 57.7rem 1.2rem;
   }
-  
+
   .question-list__item:nth-child(even) {
     background-size: 4.6rem auto;
     background-position: 57.7rem 1.2rem;
@@ -149,31 +149,31 @@
     margin-bottom: 2rem;
     line-height: 1.6rem;
     height: 4.6rem;
-  
+
   }
   .question-list__item:nth-child(odd) {
     background-size: 3rem auto;
-    background-position: 25.7rem 0.7rem;
+    background-position: 23.7rem 0.7rem;
   }
-  
+
   .question-list__item:nth-child(even) {
     background-size: 3rem auto;
-    background-position: 25.7rem 0.7rem;
+    background-position: 23.7rem 0.7rem;
   }
 
   .question-list__item:nth-child(odd):hover {
-    background-position: 25.7rem 0.7rem;
+    background-position: 23.7rem 0.7rem;
   }
 
   .question-list__item:nth-child(odd):active {
-    background-position: 25.7rem 0.7rem;
+    background-position: 23.7rem 0.7rem;
   }
 
   .question-list__item:nth-child(even):hover {
-    background-position: 25.7rem 0.7rem;
+    background-position: 23.7rem 0.7rem;
   }
   .question-list__item:nth-child(even):active {
-    background-position: 25.7rem 0.7rem;
+    background-position: 23.7rem 0.7rem;
   }
 
 }
