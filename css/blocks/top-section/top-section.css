@@ -91,7 +91,10 @@
   order: 4;
   flex-grow: 0;
   cursor: pointer;
+}
 
+.menu__item:hover {
+color: var(--first-color);
 }
 
 ul {
