@@ -2,6 +2,7 @@
   list-style-type: none;
   padding-left: 0;
   text-align: center;
+  margin: 0;
 }
 
 .rooms__item_vibes {
@@ -100,7 +101,7 @@
   }
 
   .rooms__item_vibes {
-    margin-right: 2rem;
+    margin-right: 1.7rem;
     margin-bottom: 1.7rem;
   }
 
@@ -109,9 +110,14 @@
   }
 
   .rooms__item_neonstyle {
-    margin-left: 2rem;
+    margin-left: 1.7rem;
+    width: 33.3rem;
+  }
+  .rooms__item_starwars {
+    width: 33.3rem;
   }
 }
+
 
 @media (max-width: 320px){
   .section-title {

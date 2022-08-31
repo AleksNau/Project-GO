@@ -22,7 +22,7 @@
   background-image: url("../question/icons/open-purple.svg");
   background-repeat: no-repeat;
   background-size: 4.6rem auto;
-  background-position: 106rem 3rem;
+  background-position: 112rem 3rem;
   transition-duration: 300ms;
 }
 
@@ -32,7 +32,7 @@
   background-image: url("../question/icons/open.png");
   background-repeat: no-repeat;
   background-size: 4.6rem auto;
-  background-position: 106rem 3rem;
+  background-position: 112rem 3rem;
   transition-duration: 200ms;
 }
 
@@ -43,22 +43,22 @@
 .question-list__item:nth-child(odd):hover {
   background-image: url("../question/icons/openPurple.png");
   background-repeat: no-repeat;
-  background-position: 106rem 3rem;
+  background-position: 112rem 3rem;
 }
 .question-list__item:nth-child(odd):active{
   background-image: url("../question/icons/closePurple.png");
   background-repeat: no-repeat;
-  background-position: 106rem 3rem;
+  background-position: 112rem 3rem;
 }
 .question-list__item:nth-child(even):hover {
   background-image: url("../question/icons/openWhite.png");
   background-repeat: no-repeat;
-  background-position: 106rem 3rem;
+  background-position: 112rem 3rem;
 }
 .question-list__item:nth-child(even):active {
   background-image: url("../question/icons/closeWhite.png");
   background-repeat: no-repeat;
-  background-position: 106rem 3rem;
+  background-position: 112rem 3rem;
 }
 
 
@@ -84,27 +84,27 @@
   }
   .question-list__item:nth-child(odd) {
     background-size: 4.6rem auto;
-    background-position: 83.8rem 1.2rem;
+    background-position: 83.8rem 1.8rem;
   }
 
   .question-list__item:nth-child(even) {
     background-size: 4.6rem auto;
-    background-position: 83.8rem 1.2rem;
+    background-position:83.8rem 1.8rem;
   }
 
   .question-list__item:nth-child(odd):hover {
-    background-position: 83.8rem 1.2rem;
+    background-position: 83.8rem 1.8rem;
   }
 
   .question-list__item:nth-child(odd):active {
-    background-position: 83.8rem 1.2rem;
+    background-position: 83.8rem 1.8rem;
   }
 
   .question-list__item:nth-child(even):hover {
-    background-position: 83.8rem 1.2rem;
+    background-position: 83.8rem 1.8rem;
   }
   .question-list__item:nth-child(even):active {
-    background-position: 83.8rem 1.2rem;
+    background-position: 83.8rem 1.8rem;
   }
 }
 @media (max-width: 768px){

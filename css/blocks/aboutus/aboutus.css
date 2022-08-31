@@ -173,7 +173,7 @@
 
 @media (max-width: 1024px){
   .aboutus {
-    padding-top: 10rem;
+    padding-top: 7rem;
     font-size: 2rem;
     line-height: 2.8rem;
   }
@@ -276,7 +276,7 @@
 }
 @media (max-width: 768px){
   .aboutus {
-    padding-top: 10rem;
+    padding-top: 6rem;
     font-size: 2rem;
     line-height: 2.8rem;
     grid-template-columns: repeat(2,auto);
@@ -382,7 +382,7 @@
 }
 @media (max-width: 320px){
   .aboutus {
-    padding-top: 10rem;
+    padding-top: 3rem;
     font-size: 2rem;
     line-height: 2.8rem;
     grid-template-columns: repeat(1,auto);

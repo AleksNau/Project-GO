@@ -200,10 +200,10 @@ height: auto;
 }
 @media (max-width: 768px){
   .footer {
-    padding-top: 7rem;
+    padding-top: 4rem;
   }
 
-  .container_column {
+  .footer__contacts-conteiner {
     display: flex;
     flex-direction: column;
     align-items: center;

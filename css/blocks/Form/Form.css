@@ -72,15 +72,15 @@
   "first second three";
 }
 
-.grid_column_one {
+.form__column-grid-one {
   grid-area: first;
 }
 
-.grid_column_two {
+.form__column-grid-two {
   grid-area: second;
 }
 
-.grid_column_three {
+.form__column-grid-three {
   grid-area: three;
 }
 
@@ -126,6 +126,8 @@
 .form {
   width: 100%;
   background-color: #440F51;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .form__title {
@@ -321,7 +323,7 @@
     margin-bottom: 6.7rem;
   }
 
-  .grid_column_one {
+  .form__column-grid-one {
     width: 30rem;
   }
 
@@ -336,7 +338,7 @@
     "second three";
   }
 
-  .grid_column_one {
+  .form__column-grid-one {
     flex-direction: row;
   }
 
@@ -449,15 +451,15 @@
     gap: 6.6rem;
   }
 
-  .grid_column_one{
+  .form__column-grid-one{
     gap: 10.6rem;
   }
 
-  .grid_column_two {
+  .form__column-grid-two {
     width: 28rem;
   }
 
-  .grid_column_three {
+  .form__column-grid-three {
     width: 30rem;
   }
 
@@ -476,7 +478,7 @@
     "three";
   }
 
-  .grid_column_one {
+  .form__column-grid-one {
     flex-direction: column;
   }
 
