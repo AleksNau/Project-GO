@@ -23,6 +23,18 @@
   background-size: 5.4rem auto;
 }
 
+.hidden-button:focus {
+  outline: 1px solid var(--first-color);
+}
+
+.hidden-button__background:hover {
+  background-image: url(./image/menu-hover.png);
+}
+
+.hidden-button__background:active {
+  background-image: url(./image/menu-active.png);
+}
+
 .top-section__title {
   font-style: normal;
   font-weight: 900;
