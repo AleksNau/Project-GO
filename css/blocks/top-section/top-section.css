@@ -96,6 +96,9 @@
 .menu__item:hover {
 color: var(--first-color);
 }
+.menu__item:active {
+  color: var(--fours-color);
+}
 
 ul {
   padding-left: 0;
