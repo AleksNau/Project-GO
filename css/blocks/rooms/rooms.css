@@ -67,7 +67,7 @@
   }
 
   .rooms__item_vibes {
-    margin-right: 2rem;
+    margin-right: 1.7rem;
     margin-bottom: 2rem;
   }
 
@@ -76,7 +76,11 @@
   }
 
   .rooms__item_neonstyle {
-    margin-left: 2rem;
+    margin-left: 1.7rem;
+    width: 44.1rem;
+  }
+  .rooms__item_starwars {
+    width: 44.1rem;
   }
 }
 
@@ -142,5 +146,9 @@
   .rooms__item_neonstyle {
     margin-left: 0;
   }
+  .rooms__item:not(:first-child){
+    margin-top: 1rem;
+  }
+
 }
 
