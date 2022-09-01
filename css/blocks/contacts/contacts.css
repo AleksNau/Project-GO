@@ -27,6 +27,15 @@
   background-size: 3.4rem auto;
 }
 
+.footer__contact:hover {
+  color: var(--first-color);
+}
+
+.footer__contact:active {
+  color: var(--fours-color);
+}
+
+
 .footer__contact_type_adress:before {
   background-image: url(../contacts/image/location.svg);
 
@@ -46,6 +55,7 @@
   position: relative;
   max-width: 30rem;
   padding-left: 6rem;
+  cursor: pointer;
 
 }
 
@@ -80,7 +90,17 @@ margin-bottom: 1.3rem;
   line-height: 1.6rem;
   color: #FFFFFF;
   margin-bottom: 0.6rem;
+  cursor: pointer;
 }
+
+.small__text:hover {
+  color: var(--first-color);
+}
+
+.small__text:active {
+  color: var(--fours-color);
+}
+
 .small {
   display: flex;
   justify-content: space-between;
@@ -115,6 +135,8 @@ margin-bottom: 1.3rem;
 
 .footer__svg:hover {
   fill: #EADEED;
+  opacity: 0.8;
+
 }
 
 .footer__svg:active {
