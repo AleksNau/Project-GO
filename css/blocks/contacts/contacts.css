@@ -27,14 +27,21 @@
   background-size: 3.4rem auto;
 }
 
-.footer__contact:hover {
+.footer__contact_type_tel:hover {
   color: var(--first-color);
 }
 
-.footer__contact:active {
+.footer__contact_type_tel:active {
   color: var(--fours-color);
 }
 
+.footer__contact_type_email:hover {
+  color: var(--first-color);
+}
+
+.footer__contact_type_email:active {
+  color: var(--fours-color);
+}
 
 .footer__contact_type_adress:before {
   background-image: url(../contacts/image/location.svg);
@@ -61,6 +68,7 @@
 
 .footer__contact_type_adress {
   margin-bottom: 3.8rem;
+  cursor: unset;
 }
 
 .footer__links {
@@ -90,14 +98,18 @@ margin-bottom: 1.3rem;
   line-height: 1.6rem;
   color: #FFFFFF;
   margin-bottom: 0.6rem;
+
+}
+
+.small__text-active {
   cursor: pointer;
 }
 
-.small__text:hover {
+.small__text-active:hover {
   color: var(--first-color);
 }
 
-.small__text:active {
+.small__text-active:active {
   color: var(--fours-color);
 }
 
