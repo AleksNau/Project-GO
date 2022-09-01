@@ -378,6 +378,7 @@
   .form__label-radio:active {
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.6rem;
+    color: white;
   }
 
   .chooseRoom {
