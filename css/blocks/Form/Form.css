@@ -23,6 +23,7 @@
   background-color: var(--third-color);
   border: 0.3rem solid #FFFFFF;
   border-radius: 0.8rem;
+  color: white;
 }
 
 .form__label-radio:focus {
@@ -40,6 +41,7 @@
   background-color: var(--third-color);
   border: 0.3rem solid #FFFFFF;
   border-radius: 0.8rem;
+  color: white;
 }
 
 .chooseRoom {
@@ -364,6 +366,7 @@
   .form__button:checked+.form__label-radio {
     border: 0.3rem solid #FFFFFF;
     border-radius: 0.6rem;
+    color: white;
   }
 
   .form__label-radio:focus {
